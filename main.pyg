@@ -1,0 +1,17 @@
+...
+    sourcePath = Path.Combine(RuntimePath, "sni.dll");
+    destinationPath = Path.Combine(RuntimePath, "NetSolution", "bin", "sni.dll");
+    System.IO.File.Copy(sourcePath, destinationPath, true);
+...
+    //aggiungo le tabelle necessarie con le relative colonne
+    List<string> tables = new List<string>();
+    tables = ListTables();
+
+    if (tables.Count>0 )
+    {
+        foreach (string tbl in tables)
+        {
+            AddNewTable(db, tbl);
+        }
+    }
+...

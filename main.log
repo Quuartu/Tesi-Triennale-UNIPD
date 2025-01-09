@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  9 JAN 2025 14:45
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  9 JAN 2025 19:37
  system commands enabled.
  file:line:error style messages enabled.
-**/Users/davidequartucci/Desktop/tesi/Quartucci_Davide/main
-(/Users/davidequartucci/Desktop/tesi/Quartucci_Davide/main.tex
+**/Users/davidequartucci/Documents/GitHub/Quartucci_Davide/main
+(/Users/davidequartucci/Documents/GitHub/Quartucci_Davide/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
@@ -124,22 +124,90 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvrb
  (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count273
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-\csq@reset=\count274
-\csq@gtype=\count275
-\csq@glevel=\count276
-\csq@qlevel=\count277
-\csq@maxlvl=\count278
-\csq@tshold=\count279
-\csq@ltx@everypar=\toks23
+\FV@CodeLineNo=\count274
+\FV@InFile=\read2
+\FV@TabBox=\box53
+\c@FancyVerbLine=\count275
+\FV@StepNumber=\count276
+\FV@OutFile=\write3
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count277
+\output=\toks23
+\linenoprevgraf=\count278
+\linenumbersep=\dimen150
+\linenumberwidth=\dimen151
+\c@linenumber=\count279
+\c@pagewiselinenumber=\count280
+\c@LN@truepage=\count281
+\c@internallinenumber=\count282
+\c@internallinenumbers=\count283
+\quotelinenumbersep=\dimen152
+\bframerule=\dimen153
+\bframesep=\dimen154
+\bframebox=\box54
+\linenoamsmath@ams@eqpen=\count284
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count285
+\c@FancyVerbBufferIndex=\count286
+\c@FancyVerbBufferLength=\count287
+\c@FancyVerbBufferLine=\count288
+\c@FV@oldbufferlength=\count289
+\c@FV@TrueTabGroupLevel=\count290
+\c@FV@TrueTabCounter=\count291
+\FV@TabBox@Group=\box55
+\FV@TmpLength=\skip53
+\c@FV@HighlightLinesStart=\count292
+\c@FV@HighlightLinesStop=\count293
+\FV@LoopCount=\count294
+\FV@NCharsBox=\box56
+\FV@BreakIndent=\dimen155
+\FV@BreakIndentNChars=\count295
+\FV@BreakSymbolSepLeft=\dimen156
+\FV@BreakSymbolSepLeftNChars=\count296
+\FV@BreakSymbolSepRight=\dimen157
+\FV@BreakSymbolSepRightNChars=\count297
+\FV@BreakSymbolIndentLeft=\dimen158
+\FV@BreakSymbolIndentLeftNChars=\count298
+\FV@BreakSymbolIndentRight=\dimen159
+\FV@BreakSymbolIndentRightNChars=\count299
+\c@FancyVerbLineBreakLast=\count300
+\FV@LineBox=\box57
+\FV@LineIndentBox=\box58
+\c@FV@BreakBufferDepth=\count301
+\FV@LineWidth=\dimen160
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count302
+\csq@gtype=\count303
+\csq@glevel=\count304
+\csq@qlevel=\count305
+\csq@maxlvl=\count306
+\csq@tshold=\count307
+\csq@ltx@everypar=\toks24
  (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
@@ -149,18 +217,18 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip53
-\enit@outerparindent=\dimen150
-\enit@toks=\toks24
-\enit@inbox=\box53
-\enit@count@id=\count280
-\enitdp@description=\count281
+\labelindent=\skip54
+\enit@outerparindent=\dimen161
+\enit@toks=\toks25
+\enit@inbox=\box59
+\enit@count@id=\count308
+\enitdp@description=\count309
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen151
-\WF@size=\dimen152
-\c@WF@wrappedlines=\count282
-\WF@box=\box54
-\WF@everypar=\toks25
+\wrapoverhang=\dimen162
+\WF@size=\dimen163
+\c@WF@wrappedlines=\count310
+\WF@box=\box60
+\WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
@@ -168,24 +236,24 @@ Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen153
-\captionmargin=\dimen154
-\caption@leftmargin=\dimen155
-\caption@rightmargin=\dimen156
-\caption@width=\dimen157
-\caption@indent=\dimen158
-\caption@parindent=\dimen159
-\caption@hangindent=\dimen160
+\caption@tempdima=\dimen164
+\captionmargin=\dimen165
+\caption@leftmargin=\dimen166
+\caption@rightmargin=\dimen167
+\caption@width=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count283
-\c@continuedfloat=\count284
+\c@caption@flags=\count311
+\c@continuedfloat=\count312
 Package caption Info: wrapfig package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count285
+\c@subfigure=\count313
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count286
+\c@subtable=\count314
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -211,18 +279,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count287
-\Gm@cntv=\count288
-\c@Gm@tempcnt=\count289
-\Gm@bindingoffset=\dimen161
-\Gm@wd@mp=\dimen162
-\Gm@odd@mp=\dimen163
-\Gm@even@mp=\dimen164
-\Gm@layoutwidth=\dimen165
-\Gm@layoutheight=\dimen166
-\Gm@layouthoffset=\dimen167
-\Gm@layoutvoffset=\dimen168
-\Gm@dimlist=\toks26
+\Gm@cnth=\count315
+\Gm@cntv=\count316
+\c@Gm@tempcnt=\count317
+\Gm@bindingoffset=\dimen172
+\Gm@wd@mp=\dimen173
+\Gm@odd@mp=\dimen174
+\Gm@even@mp=\dimen175
+\Gm@layoutwidth=\dimen176
+\Gm@layoutheight=\dimen177
+\Gm@layouthoffset=\dimen178
+\Gm@layoutvoffset=\dimen179
+\Gm@dimlist=\toks27
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
@@ -234,88 +302,13 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 107.
 )
-\Gin@req@height=\dimen169
-\Gin@req@width=\dimen170
+\Gin@req@height=\dimen180
+\Gin@req@width=\dimen181
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/was/icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
- (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/fvextra/fvextra.sty
-Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvrb
- (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count290
-\FV@InFile=\read2
-\FV@TabBox=\box55
-\c@FancyVerbLine=\count291
-\FV@StepNumber=\count292
-\FV@OutFile=\write3
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
- (/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2023/05/20 line numbers on paragraphs v5.3
-\linenopenalty=\count293
-\output=\toks27
-\linenoprevgraf=\count294
-\linenumbersep=\dimen171
-\linenumberwidth=\dimen172
-\c@linenumber=\count295
-\c@pagewiselinenumber=\count296
-\c@LN@truepage=\count297
-\c@internallinenumber=\count298
-\c@internallinenumbers=\count299
-\quotelinenumbersep=\dimen173
-\bframerule=\dimen174
-\bframesep=\dimen175
-\bframebox=\box56
-\linenoamsmath@ams@eqpen=\count300
-
-
-LaTeX Warning: Command \@parboxrestore  has changed.
-               Check if current package is valid.
-
-LaTeX Info: Redefining \\ on input line 3180.
-)
-
-Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a warning from the lineno package on input line 36.
-
-\c@FancyVerbWriteLine=\count301
-\c@FancyVerbBufferIndex=\count302
-\c@FancyVerbBufferLength=\count303
-\c@FancyVerbBufferLine=\count304
-\c@FV@oldbufferlength=\count305
-\c@FV@TrueTabGroupLevel=\count306
-\c@FV@TrueTabCounter=\count307
-\FV@TabBox@Group=\box57
-\FV@TmpLength=\skip54
-\c@FV@HighlightLinesStart=\count308
-\c@FV@HighlightLinesStop=\count309
-\FV@LoopCount=\count310
-\FV@NCharsBox=\box58
-\FV@BreakIndent=\dimen176
-\FV@BreakIndentNChars=\count311
-\FV@BreakSymbolSepLeft=\dimen177
-\FV@BreakSymbolSepLeftNChars=\count312
-\FV@BreakSymbolSepRight=\dimen178
-\FV@BreakSymbolSepRightNChars=\count313
-\FV@BreakSymbolIndentLeft=\dimen179
-\FV@BreakSymbolIndentLeftNChars=\count314
-\FV@BreakSymbolIndentRight=\dimen180
-\FV@BreakSymbolIndentRightNChars=\count315
-\c@FancyVerbLineBreakLast=\count316
-\FV@LineBox=\box59
-\FV@LineIndentBox=\box60
-\c@FV@BreakBufferDepth=\count317
-\FV@LineWidth=\dimen181
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
@@ -961,30 +954,30 @@ runsystem(rm main.aex)...executed.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 54.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1042,68 +1035,68 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 54.
 (./main.out) (./main.out)
 \@outlinefile=\write7
 
 \openout7 = main.out
-Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 53.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 54.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 53.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 53.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 53.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 53.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 53.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 53.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 53.
-LaTeX Font Info:    Redeclaring math accent \check on input line 53.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 53.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 53.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 53.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 53.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 54.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 54.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 54.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 54.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 54.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 54.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 54.
+LaTeX Font Info:    Redeclaring math accent \check on input line 54.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 54.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 54.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 54.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 53.
+(Font)              `operators' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 53.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 53.
+(Font)              `operators' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 53.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 53.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 53.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 53.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 53.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 53.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 53.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 53.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 53.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 53.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 54.
 Package biblatex Info: Trying to load language 'italian'...
 Package biblatex Info: ... file 'italian.lbx' found.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
@@ -1118,8 +1111,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 53.
-Package biblatex Info: Reference segment=0 on input line 53.
+Package biblatex Info: Reference section=0 on input line 54.
+Package biblatex Info: Reference segment=0 on input line 54.
  (./Capitoli/frontespizio.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: luatex
@@ -1266,209 +1259,4 @@ Package luatex.def Info: Immagini/HMI01.png  used on input line 52.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14<./Immagini/HMI01.png>] [15]
-<Immagini/AnagraficaArticoli.png, id=375, 1679.27374pt x 882.29625pt>
-File: Immagini/AnagraficaArticoli.png Graphic file (type png)
-<use Immagini/AnagraficaArticoli.png>
-Package luatex.def Info: Immagini/AnagraficaArticoli.png  used on input line 72.
-(luatex.def)             Requested size: 455.24411pt x 239.17902pt.
- [16<./Immagini/AnagraficaArticoli.png>]
-\openout3 = main.pyg
- (./_minted-main/default.pygstyle) [17] (./_minted-main/95ABE3160EBF7EBC02A83D156EBC031850EB15C0A2CA8D5A1F16281FC253576A.pygtex
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 4.
-)
-\openout3 = main.pyg
- [18] (./_minted-main/CAE6A3F68DD13B84FBCDEF2A7FBCD48250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19] (./_minted-main/CD0FA203AFEC9848EFD9A58B73070B8450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [20]
-<Immagini/Produzione.png, id=417, 1509.64pt x 379.4175pt>
-File: Immagini/Produzione.png Graphic file (type png)
-<use Immagini/Produzione.png>
-Package luatex.def Info: Immagini/Produzione.png  used on input line 236.
-(luatex.def)             Requested size: 455.24411pt x 114.41664pt.
-
-\openout3 = main.pyg
- (./_minted-main/7DDBFB2C813D40897396A06E52C9A49650EB15C0A2CA8D5A1F16281FC253576A.pygtex) [21<./Immagini/Produzione.png>]
-<Immagini/ExtraProduzione.png, id=428, 1696.3375pt x 946.53625pt>
-File: Immagini/ExtraProduzione.png Graphic file (type png)
-<use Immagini/ExtraProduzione.png>
-Package luatex.def Info: Immagini/ExtraProduzione.png  used on input line 290.
-(luatex.def)             Requested size: 455.24411pt x 254.02281pt.
-
-\openout3 = main.pyg
- (./_minted-main/7565ABD820C25F9043CD9E931863024450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [22]
-\openout3 = main.pyg
- (./_minted-main/82C225EFF97E88D2520EABC6AA51F20850EB15C0A2CA8D5A1F16281FC253576A.pygtex) [23<./Immagini/ExtraProduzione.png>]
-<Immagini/StoricoProduzione.png, id=442, 1922.18124pt x 1081.03876pt>
-File: Immagini/StoricoProduzione.png Graphic file (type png)
-<use Immagini/StoricoProduzione.png>
-Package luatex.def Info: Immagini/StoricoProduzione.png  used on input line 352.
-(luatex.def)             Requested size: 455.24411pt x 256.02357pt.
-
-\openout3 = main.pyg
- (./_minted-main/610EDE15263CA8D74830BF4778B83CCE50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [24]
-<Immagini/CartellaAllarmi.png, id=451, 341.275pt x 380.42125pt>
-File: Immagini/CartellaAllarmi.png Graphic file (type png)
-<use Immagini/CartellaAllarmi.png>
-Package luatex.def Info: Immagini/CartellaAllarmi.png  used on input line 402.
-(luatex.def)             Requested size: 159.33821pt x 177.61963pt.
-<Immagini/AllarmiInfografica.png, id=452, 598.235pt x 368.37625pt>
-File: Immagini/AllarmiInfografica.png Graphic file (type png)
-<use Immagini/AllarmiInfografica.png>
-Package luatex.def Info: Immagini/AllarmiInfografica.png  used on input line 410.
-(luatex.def)             Requested size: 250.38564pt x 154.18297pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[25<./Immagini/StoricoProduzione.png>]
-<Immagini/Allarmi.png, id=461, 1923.185pt x 1077.02374pt>
-File: Immagini/Allarmi.png Graphic file (type png)
-<use Immagini/Allarmi.png>
-Package luatex.def Info: Immagini/Allarmi.png  used on input line 421.
-(luatex.def)             Requested size: 455.24411pt x 254.94122pt.
-
-\openout3 = main.pyg
- [26<./Immagini/CartellaAllarmi.png><./Immagini/AllarmiInfografica.png>] (./_minted-main/5A3689001844182AB5F2EB22DB88AE5750EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
- (./_minted-main/E820F2526486C4BAF8E9E7F431016B6B50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [27<./Immagini/Allarmi.png>]
-\openout3 = main.pyg
- (./_minted-main/B119CF04158C49A50630651A35ABD51750EB15C0A2CA8D5A1F16281FC253576A.pygtex) [28]
-<Immagini/tag.png, id=486, 380.42125pt x 840.13875pt>
-File: Immagini/tag.png Graphic file (type png)
-<use Immagini/tag.png>
-Package luatex.def Info: Immagini/tag.png  used on input line 504.
-(luatex.def)             Requested size: 136.57462pt x 301.61646pt.
-
-\openout3 = main.pyg
- (./_minted-main/E60E373A88DDBC469085767DF67920A250EB15C0A2CA8D5A1F16281FC253576A.pygtex) [29]
-Underfull \vbox (badness 3449) has occurred while \output is active []
-
- [30<./Immagini/tag.png>]
-\openout3 = main.pyg
- (./_minted-main/B715C0DF6BBD1F920D861FA2944F93B950EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
- [31] (./_minted-main/3D68408608DD78DCBDF87F26497589F550EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-Underfull \hbox (badness 4699) in paragraph at lines 630--631
-[][]\TU/lmtt/m/n/12 80 = "Attesa RESET segnali da PLC - ok/ko"\TU/TimesNewRoman(0)/m/sc/12 : ve-ri-fi-ca di si-cu-rez-za, at-te-sa
- []
-
-[32]
-\openout3 = main.pyg
- (./_minted-main/12477154095FBAC8098896D90A3A400450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [33]
-\openout3 = main.pyg
- (./_minted-main/5F7D9FDE48CEA28D6CD1FA41EE7882CD50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
- (./_minted-main/7F9106BE09CCCDDF707AD2F83AD02E4250EB15C0A2CA8D5A1F16281FC253576A.pygtex) [34]
-\openout3 = main.pyg
- (./_minted-main/FA7D25D79D1A330B19C45C8AB6619D8250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
- [35] (./_minted-main/BA8645640D2CBCBF0F31995FC0BA058C50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
- (./_minted-main/D0F8CEBE3F28FC1D9925E09845A477A150EB15C0A2CA8D5A1F16281FC253576A.pygtex) [36]
-\openout3 = main.pyg
- (./_minted-main/A72ED2A60E734F251465E5D72AFEABB150EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
-
-Underfull \vbox (badness 1831) has occurred while \output is active []
-
- [37] (./_minted-main/3EA600B42F6E0E96C56F729E2C1DF2EC50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-Overfull \vbox (0.91315pt too high) detected at line 946
- []
-
-[38]
-\openout3 = main.pyg
- (./_minted-main/2CC6189B3B35E3C6B83A19647E78CD9350EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
- [39] (./_minted-main/01EA20ED434F1955DF5504E16B02DF1250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-Underfull \vbox (badness 2277) has occurred while \output is active []
-
- [40]
-\openout3 = main.pyg
- (./_minted-main/4713AA198AD8C2975E246A33490F011850EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-\openout3 = main.pyg
- (./_minted-main/A9BA60BF248BC2DB3A731B5614BE32C950EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-Underfull \hbox (badness 2828) in paragraph at lines 1097--1099
-\TU/TimesNewRoman(0)/m/sc/12 In que-sto ca-pi-to-lo ab-bia-mo ana-liz-za-to i pun-ti sa-lien-ti del main cy-cle. Per vi-sio-na-
- []
-
-
-Underfull \hbox (badness 1824) in paragraph at lines 1097--1099
-\TU/TimesNewRoman(0)/m/sc/12 re il co-di-ce com-ple-to far ri-fe-ri-men-to al-la re-po-si-to-ry Gi-tHub, più pre-ci-sa-men-te al fi-le:
- []
-
-[41]) (./Capitoli/CasoStudio.tex [42]
-Capitolo 4.
-[43
-
-]
-<Immagini/ImportTag.png, id=571, 352.31625pt x 342.27875pt>
-File: Immagini/ImportTag.png Graphic file (type png)
-<use Immagini/ImportTag.png>
-Package luatex.def Info: Immagini/ImportTag.png  used on input line 15.
-(luatex.def)             Requested size: 182.09486pt x 176.90485pt.
- [44<./Immagini/ImportTag.png>]
-\openout3 = main.pyg
- (./_minted-main/23CE7EFCA9F01BB353D9507FF316E68C51E00421F9CE83798E63AC0A4472DCBE.pygtex
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 22.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <10> not available
-(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input line 22.
-)
-<Immagini/FTP.png, id=581, 1509.64pt x 426.59375pt>
-File: Immagini/FTP.png Graphic file (type png)
-<use Immagini/FTP.png>
-Package luatex.def Info: Immagini/FTP.png  used on input line 72.
-(luatex.def)             Requested size: 455.24411pt x 128.64305pt.
- [45] [46<./Immagini/FTP.png>]
-<Immagini/PannelloASEM.jpg, id=595, 1932.21875pt x 1604.99625pt>
-File: Immagini/PannelloASEM.jpg Graphic file (type jpg)
-<use Immagini/PannelloASEM.jpg>
-Package luatex.def Info: Immagini/PannelloASEM.jpg  used on input line 92.
-(luatex.def)             Requested size: 318.66948pt x 264.6905pt.
-) (./Capitoli/Conclusioni.tex [47<./Immagini/PannelloASEM.jpg>] [48
-
-]
-Capitolo 5.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49]) [50] [51
-
-
-] [52] (./main.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
- ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A9B1A37373D5F3663D7053C1CC83E66;2868.
-runsystem(rm main.pyg)...executed.
-Package logreq Info: Writing requests to 'main.run.xml'.
-
-\openout1 = main.run.xml
-)
-
-Here is how much of LuaTeX's memory you used:
- 34729 strings out of 476447
- 125004,1977958 words of node,token memory allocated
- 802 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 44 attribute, 68 glue_spec, 24 attribute_list, 1 write, 16 pdf_action nodes
-   avail lists: 1:7,2:7464,3:500,4:976,5:556,6:132,7:8199,8:214,9:1954,10:142,11:1277
- 55762 multiletter control sequences out of 65536+600000
- 78 fonts using 19417935 bytes
- 79i,11n,89p,2577b,3411s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (62 pages, 6527372 bytes).
-
-PDF statistics: 738 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 131072)
- 264 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+<Immagini/AnagraficaArticoli.png, id=375, 1679.27374pt x
