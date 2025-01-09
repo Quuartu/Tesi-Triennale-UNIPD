@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{     }\PYG{k}{static}\PYG{+w}{ }\PYG{n}{Type}\PYG{+w}{ }\PYG{n+nf}{MapSqlType}\PYG{p}{(}\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{sqlType}\PYG{p}{)}
+\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{     }\PYG{k}{switch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{sqlType}\PYG{p}{.}\PYG{n}{ToLower}\PYG{p}{(}\PYG{p}{)}\PYG{p}{)}
+\PYG{+w}{     }\PYG{p}{\PYGZob{}}
+\PYG{+w}{         }\PYG{k}{case}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}int\PYGZdq{}}\PYG{p}{:}
+\PYG{+w}{             }\PYG{k}{return}\PYG{+w}{ }\PYG{n+nf}{typeof}\PYG{p}{(}\PYG{k+kt}{int}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{         }\PYG{k}{case}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}varchar\PYGZdq{}}\PYG{p}{:}
+\PYG{+w}{         }\PYG{k}{case}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}nvarchar\PYGZdq{}}\PYG{p}{:}
+\PYG{+w}{         }\PYG{k}{case}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}char\PYGZdq{}}\PYG{p}{:}
+\PYG{+w}{         }\PYG{k}{case}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}nchar\PYGZdq{}}\PYG{p}{:}
+\PYG{+w}{             }\PYG{k}{return}\PYG{+w}{ }\PYG{n+nf}{typeof}\PYG{p}{(}\PYG{k+kt}{string}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{         }\PYG{c+c1}{// Aggiungi altri casi secondo necessità}
+\PYG{+w}{         }\PYG{k}{default}\PYG{p}{:}
+\PYG{+w}{             }\PYG{k}{return}\PYG{+w}{ }\PYG{n+nf}{typeof}\PYG{p}{(}\PYG{k+kt}{object}\PYG{p}{)}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Tipo generico per altri tipi non gestiti}
+\PYG{+w}{     }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

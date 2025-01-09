@@ -1,0 +1,33 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{    }\PYG{c+c1}{/// \PYGZlt{}summary\PYGZgt{}}
+\PYG{+w}{    }\PYG{c+c1}{/// Recupera i dati delle produzioni terminate e li sposta nello storico}
+\PYG{+w}{    }\PYG{c+c1}{/// \PYGZlt{}/summary\PYGZgt{}}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{pr\PYGZus{}TerminateAllRunningLocale}\PYG{p}{(}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k+kt}{object}\PYG{p}{[}\PYG{p}{,}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{result}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}store}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{Get}\PYG{o}{\PYGZlt{}}\PYG{n}{Store}\PYG{o}{\PYGZgt{}}\PYG{p}{(}\PYG{n}{DATASTORE\PYGZus{}DATABASE}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}store}\PYG{p}{.}\PYG{n}{Query}\PYG{p}{(}\PYG{l+s}{\PYGZdl{}\PYGZdq{}SELECT * FROM \PYGZob{}TABLE\PYGZus{}NAME\PYGZcb{} WHERE \PYGZbs{}\PYGZdq{}/Status\PYGZbs{}\PYGZdq{} = 160\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{\PYGZus{}}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{result}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{result}\PYG{p}{.}\PYG{n}{GetLength}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{+w}{ }\PYG{+w}{ }\PYG{n}{result}\PYG{p}{.}\PYG{n}{GetLength}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{Log}\PYG{p}{.}\PYG{n}{Warning}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}pr\PYGZus{}TerminateAllRunning no record found\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{k}{return}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{        }\PYG{n}{ReaToClienteLocale}\PYG{+w}{ }\PYG{n}{prod}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{ReaToClienteLocale}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Production\PYGZus{}Command}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{result}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Product\PYGZus{}ID}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{string}\PYG{p}{)}\PYG{n}{result}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{dt\PYGZus{}start}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DateTime}\PYG{o}{?}\PYG{p}{)}\PYG{n}{result}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{dt\PYGZus{}end}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{DateTime}\PYG{p}{.}\PYG{n}{Now}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Quantity\PYGZus{}Requested}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{long}\PYG{p}{)}\PYG{n}{result}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{8}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Quantity\PYGZus{}Produced}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{long}\PYG{p}{)}\PYG{n}{result}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{9}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Total\PYGZus{}Reject}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{long}\PYG{p}{)}\PYG{n}{result}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{11}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Extra\PYGZus{}Production}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{long}\PYG{p}{)}\PYG{n}{result}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{p}{]}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{n}{\PYGZus{}storicoprod}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicReaToClienteStoricoLocale}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}storicoprod}\PYG{p}{.}\PYG{n}{sp\PYGZus{}InsertLocale}\PYG{p}{(}\PYG{n}{prod}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

@@ -1,0 +1,38 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{k}{public}\PYG{+w}{ }\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{script\PYGZus{}maincycle}\PYG{+w}{ }\PYG{p}{:}\PYG{+w}{ }\PYG{n}{BaseNetLogic}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{n}{PeriodicTask}\PYG{+w}{ }\PYG{n}{myPeriodicTask}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicClienteToRea}\PYG{+w}{ }\PYG{n}{\PYGZus{}prod}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicAnagrafica}\PYG{+w}{ }\PYG{n}{\PYGZus{}art}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicClienteToReaLocale}\PYG{+w}{ }\PYG{n}{\PYGZus{}prodLocale}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicAnagraficaLocale}\PYG{+w}{ }\PYG{n}{\PYGZus{}artLocale}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{override}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{Start}\PYG{p}{(}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}prod}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicClienteToRea}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}art}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicAnagrafica}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{n}{\PYGZus{}prodLocale}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicClienteToReaLocale}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}artLocale}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{RuntimeNetLogicAnagraficaLocale}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{n}{myPeriodicTask}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{PeriodicTask}\PYG{p}{(}\PYG{n}{Maincycle}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{250}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{LogicObject}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{myPeriodicTask}\PYG{p}{.}\PYG{n}{Start}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{override}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{Stop}\PYG{p}{(}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{myPeriodicTask}\PYG{p}{.}\PYG{n}{Dispose}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{Maincycle}\PYG{p}{(}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{StateMachine}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{StateMachine}\PYG{p}{(}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

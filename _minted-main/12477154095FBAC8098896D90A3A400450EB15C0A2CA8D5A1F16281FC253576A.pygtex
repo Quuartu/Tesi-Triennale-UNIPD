@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{    }\PYG{k}{case}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{:}
+\PYG{+w}{        }\PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{+w}{        }\PYG{n}{MachineStatusText}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Inizializzazione\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{        }\PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Model/fillBar\PYGZdq{}}\PYG{p}{)}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{15}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Model/fillBar\PYGZdq{}}\PYG{p}{)}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{        }\PYG{k}{else}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{MachineStatus}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+
+\PYG{+w}{            }\PYG{c+c1}{//cambia pagina}
+\PYG{+w}{            }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{myPanel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{LogicObject}\PYG{p}{.}\PYG{n}{GetPanelLoader}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}PanelLoader1\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{myPanel}\PYG{p}{.}\PYG{n}{ChangePanel}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Main\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{            }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{mainPanel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{LogicObject}\PYG{p}{.}\PYG{n}{GetPanelLoader}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}PanelLoaderScreens\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{mainPanel}\PYG{p}{.}\PYG{n}{ChangePanel}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Home\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{        }\PYG{k}{break}\PYG{p}{;}
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

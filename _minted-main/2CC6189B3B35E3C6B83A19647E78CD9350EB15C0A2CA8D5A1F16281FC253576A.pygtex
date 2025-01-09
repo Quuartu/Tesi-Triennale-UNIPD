@@ -1,0 +1,45 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{    }\PYG{k}{case}\PYG{+w}{ }\PYG{l+m+mi}{111}\PYG{p}{:}
+\PYG{+w}{    }\PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{+w}{    }\PYG{n}{MachineStatusText}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Attesa di conferma\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{+w}{    }\PYG{c+c1}{// Seleziona il data store e i nomi dei campi in base a DBExpress.Value}
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+
+\PYG{+w}{    }\PYG{c+c1}{// Richiesta fine produzione}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pr\PYGZus{}ButtonTerminaSelected}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{pr\PYGZus{}ButtonTerminaSelected}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{false}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{DB91\PYGZus{}TerminaProduzione}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{true}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{MachineStatus}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{150}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{c+c1}{// Ritorno in produzione}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{Extra\PYGZus{}Produzione}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{Extra\PYGZus{}Produzione}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{false}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{DB91\PYGZus{}RiordinoProduzione}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{true}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{c+c1}{// Recupera il valore di Extra\PYGZus{}Production}
+\PYG{+w}{        }\PYG{n}{Object}\PYG{p}{[}\PYG{p}{,}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{ResultSetOldExtra}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{String}\PYG{p}{[}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{HeaderOldExtra}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{queryOldE}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdl{}\PYGZdq{}SELECT \PYGZob{}extraProductionFieldPopup\PYGZcb{} FROM \PYGZob{}tableNamePopup\PYGZcb{} WHERE \PYGZob{}idFieldPopup\PYGZcb{} = \PYGZsq{}\PYGZob{}OdlStartLong\PYGZcb{}\PYGZsq{}\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{myStoreE}\PYG{p}{.}\PYG{n}{Query}\PYG{p}{(}\PYG{n}{queryOldE}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{HeaderOldExtra}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{ResultSetOldExtra}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{OldExtraProduction}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Convert}\PYG{p}{.}\PYG{n}{ToInt32}\PYG{p}{(}\PYG{n}{ResultSetOldExtra}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{c+c1}{// Aggiorna Quantity\PYGZus{}ExtraProduzione}
+\PYG{+w}{        }\PYG{n}{Quantity\PYGZus{}ExtraProduzione}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{OldExtraProduction}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{c+c1}{// Aggiorna il database}
+\PYG{+w}{        }\PYG{n}{Object}\PYG{p}{[}\PYG{p}{,}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{ResultSet}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{String}\PYG{p}{[}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{Header}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{query}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdl{}\PYGZdq{}UPDATE \PYGZob{}tableNamePopup\PYGZcb{} SET \PYGZob{}extraProductionFieldPopup\PYGZcb{} = \PYGZsq{}\PYGZob{}(uint)Quantity\PYGZus{}ExtraProduzione.Value\PYGZcb{}\PYGZsq{} WHERE \PYGZob{}idFieldPopup\PYGZcb{} = \PYGZsq{}\PYGZob{}OdlStartLong\PYGZcb{}\PYGZsq{}\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{myStoreE}\PYG{p}{.}\PYG{n}{Query}\PYG{p}{(}\PYG{n}{query}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{Header}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{ResultSet}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{c+c1}{// Cambio stato}
+\PYG{+w}{        }\PYG{n}{MachineStatus}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{100}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{break}\PYG{p}{;}
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

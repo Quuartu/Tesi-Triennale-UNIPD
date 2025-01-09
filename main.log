@@ -1,0 +1,1474 @@
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  9 JAN 2025 14:45
+ system commands enabled.
+ file:line:error style messages enabled.
+**/Users/davidequartucci/Desktop/tesi/Quartucci_Davide/main
+(/Users/davidequartucci/Desktop/tesi/Quartucci_Davide/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/Users/davidequartucci/Library/texlive/2024/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "/usr/local/texlive/2024/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/davidequartucci/Library/texlive/2024/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/2024/texmf-dist/tex/latex/extsizes/extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/davidequartucci/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen139
+)
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen141
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count195
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count196
+\leftroot@=\count197
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count198
+\DOTSCASE@=\count199
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count266
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count267
+\dotsspace@=\muskip16
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
+\tag@help=\toks18
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count273
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+\csq@reset=\count274
+\csq@gtype=\count275
+\csq@glevel=\count276
+\csq@qlevel=\count277
+\csq@maxlvl=\count278
+\csq@tshold=\count279
+\csq@ltx@everypar=\toks23
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen150
+\enit@toks=\toks24
+\enit@inbox=\box53
+\enit@count@id=\count280
+\enitdp@description=\count281
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen151
+\WF@size=\dimen152
+\c@WF@wrappedlines=\count282
+\WF@box=\box54
+\WF@everypar=\toks25
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen153
+\captionmargin=\dimen154
+\caption@leftmargin=\dimen155
+\caption@rightmargin=\dimen156
+\caption@width=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+Package caption Info: wrapfig package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count285
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count286
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks26
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+)
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/was/icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvrb
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count290
+\FV@InFile=\read2
+\FV@TabBox=\box55
+\c@FancyVerbLine=\count291
+\FV@StepNumber=\count292
+\FV@OutFile=\write3
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count293
+\output=\toks27
+\linenoprevgraf=\count294
+\linenumbersep=\dimen171
+\linenumberwidth=\dimen172
+\c@linenumber=\count295
+\c@pagewiselinenumber=\count296
+\c@LN@truepage=\count297
+\c@internallinenumber=\count298
+\c@internallinenumbers=\count299
+\quotelinenumbersep=\dimen173
+\bframerule=\dimen174
+\bframesep=\dimen175
+\bframebox=\box56
+\linenoamsmath@ams@eqpen=\count300
+
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+LaTeX Info: Redefining \\ on input line 3180.
+)
+
+Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a warning from the lineno package on input line 36.
+
+\c@FancyVerbWriteLine=\count301
+\c@FancyVerbBufferIndex=\count302
+\c@FancyVerbBufferLength=\count303
+\c@FancyVerbBufferLine=\count304
+\c@FV@oldbufferlength=\count305
+\c@FV@TrueTabGroupLevel=\count306
+\c@FV@TrueTabCounter=\count307
+\FV@TabBox@Group=\box57
+\FV@TmpLength=\skip54
+\c@FV@HighlightLinesStart=\count308
+\c@FV@HighlightLinesStop=\count309
+\FV@LoopCount=\count310
+\FV@NCharsBox=\box58
+\FV@BreakIndent=\dimen176
+\FV@BreakIndentNChars=\count311
+\FV@BreakSymbolSepLeft=\dimen177
+\FV@BreakSymbolSepLeftNChars=\count312
+\FV@BreakSymbolSepRight=\dimen178
+\FV@BreakSymbolSepRightNChars=\count313
+\FV@BreakSymbolIndentLeft=\dimen179
+\FV@BreakSymbolIndentLeftNChars=\count314
+\FV@BreakSymbolIndentRight=\dimen180
+\FV@BreakSymbolIndentRightNChars=\count315
+\c@FancyVerbLineBreakLast=\count316
+\FV@LineBox=\box59
+\FV@LineIndentBox=\box60
+\c@FV@BreakBufferDepth=\count317
+\FV@LineWidth=\dimen181
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks28
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "main.w18")...executed.
+ (./main.w18)
+runsystem(rm -- "main.w18")...executed.
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count318
+\xs_countb=\count319
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip55
+\fb@frw=\dimen182
+\fb@frh=\dimen183
+\FrameRule=\dimen184
+\FrameSep=\dimen185
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count320
+\float@exts=\toks29
+\float@box=\box61
+\@float@everytoks=\toks30
+\@floatcapt=\box62
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box63
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count321
+\c@minted@pygmentizecounter=\count322
+\@float@every@listing=\toks31
+\c@listing=\count323
+)
+runsystem(mkdir -p _minted-main)...executed.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfx/pdfx.sty
+Package: pdfx 2019/02/27 v1.6.3 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
+\pdfx@minorversion=\count324
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/everyshi/everyshi.sty
+Package: everyshi 2020/11/18 v4.00 EveryShipout Package
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+){/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+warning  (map file): entry for 'dummy-space' already exists, duplicates ignored
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfx/l8u-penc.def
+File: l8u-penc.def 2017/06/23 v0.8 Custom LaTeX file, for UTF8 encoded letters and symbols
+LaTeX Info: Composite with undeclared \b in encoding L8U on input line 278.
+)
+\pdfxsafeforxmp@toks=\toks32
+\pdfx@tmptoks=\toks33
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count325
+)
+\@linkdim=\dimen186
+\Hy@linkcounter=\count326
+\Hy@pagecounter=\count327
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count328
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+)
+\pdfmajorversion=\count329
+Package hyperref Info: Option `pdfa' set `true' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count330
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen187
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count331
+\Field@Width=\dimen188
+\Fld@charsize=\dimen189
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode ON on input line 6091.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count332
+\c@Item=\count333
+\c@Hfootnote=\count334
+)
+Package hyperref Info: Driver: hluatex.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+Package hyperref Info: 񑙱.񑙲:=1.4 on input line 240.
+\Fld@listcount=\count335
+\c@bookmark@seq@number=\count336
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip56
+)
+Package hyperref Info: Option `unicode' set `true' on input line 1463.
+Package hyperref Info: Option `psdextra' set `true' on input line 1465.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/psdextra.def
+File: psdextra.def 2024-01-20 v7.01h Hyperref: Additions to PDF string support
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/colorprofiles/colorprofiles.sty
+Package: colorprofiles 2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A support
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/colorprofiles/colorprofiles.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/se-ascii-print.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
+** pdfx: No file main.xmpdata . Metadata will be incomplete!
+<<sRGB.icc>>
+Package hyperref Info: Option `unicode' set `true' on input line 2411.
+Package hyperref Info: Option `unicode' set `true' on input line 2412.
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfx/glyphtounicode-ntx.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/xmpincl/xmpincl.sty
+Package: xmpincl 2021/09/22 v2.4 Include XMP data in pdflatex
+)
+Using XMP template file: pdfa.xmp
+\xmpinclWrite=\write5
+\xmpinclRead=\read4
+
+\openout5 = pdfa.xmpi
+<<pdfa.xmpi>>) (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count337
+\l__siunitx_number_exponent_fixed_int=\count338
+\l__siunitx_number_min_decimal_int=\count339
+\l__siunitx_number_min_integer_int=\count340
+\l__siunitx_number_round_precision_int=\count341
+\l__siunitx_number_lower_threshold_int=\count342
+\l__siunitx_number_upper_threshold_int=\count343
+\l__siunitx_number_group_first_int=\count344
+\l__siunitx_number_group_size_int=\count345
+\l__siunitx_number_group_minimum_int=\count346
+\l__siunitx_angle_tmp_dim=\dimen190
+\l__siunitx_angle_marker_box=\box64
+\l__siunitx_angle_unit_box=\box65
+\l__siunitx_compound_count_int=\count347
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box66
+\l__siunitx_table_tmp_dim=\dimen191
+\l__siunitx_table_column_width_dim=\dimen192
+\l__siunitx_table_integer_box=\box67
+\l__siunitx_table_decimal_box=\box68
+\l__siunitx_table_uncert_box=\box69
+\l__siunitx_table_before_box=\box70
+\l__siunitx_table_after_box=\box71
+\l__siunitx_table_before_dim=\dimen193
+\l__siunitx_table_carry_dim=\dimen194
+\l__siunitx_unit_tmp_int=\count348
+\l__siunitx_unit_position_int=\count349
+\l__siunitx_unit_total_int=\count350
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen195
+\ar@mcellbox=\box72
+\extrarowheight=\dimen196
+\NC@list=\toks34
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box73
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read5
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language3
+\l@vietnamese=\language4
+\l@hebrew=\language5
+\l@german-x-2024-02-28=\language6
+\l@ngerman-x-2024-02-28=\language7
+\l@afrikaans=\language8
+\l@ancientgreek=\language9
+\l@ibycus=\language10
+\l@arabic=\language11
+\l@armenian=\language12
+\l@basque=\language13
+\l@belarusian=\language14
+\l@bulgarian=\language15
+\l@catalan=\language16
+\l@pinyin=\language17
+\l@churchslavonic=\language18
+\l@coptic=\language19
+\l@croatian=\language20
+\l@czech=\language21
+\l@danish=\language22
+\l@dutch=\language23
+\l@ukenglish=\language24
+\l@usenglishmax=\language25
+\l@esperanto=\language26
+\l@estonian=\language27
+\l@ethiopic=\language28
+\l@farsi=\language29
+\l@finnish=\language30
+\l@schoolfinnish=\language31
+\l@french=\language32
+\l@friulan=\language33
+\l@galician=\language34
+\l@georgian=\language35
+\l@german=\language36
+\l@ngerman=\language37
+\l@swissgerman=\language38
+\l@greek=\language39
+\l@monogreek=\language40
+\l@hungarian=\language41
+\l@icelandic=\language42
+\l@assamese=\language43
+\l@bengali=\language44
+\l@gujarati=\language45
+\l@hindi=\language46
+\l@kannada=\language47
+\l@malayalam=\language48
+\l@marathi=\language49
+\l@oriya=\language50
+\l@pali=\language51
+\l@panjabi=\language52
+\l@tamil=\language53
+\l@telugu=\language54
+\l@indonesian=\language55
+\l@interlingua=\language56
+\l@irish=\language57
+\l@italian=\language58
+\l@kurmanji=\language59
+\l@classiclatin=\language60
+\l@latin=\language61
+\l@liturgicallatin=\language62
+\l@latvian=\language63
+\l@lithuanian=\language64
+\l@macedonian=\language65
+\l@mongolian=\language66
+\l@mongolianlmc=\language67
+\l@bokmal=\language68
+\l@nynorsk=\language69
+\l@occitan=\language70
+\l@piedmontese=\language71
+\l@polish=\language72
+\l@portuguese=\language73
+\l@romanian=\language74
+\l@romansh=\language75
+\l@russian=\language76
+\l@sanskrit=\language77
+\l@serbian=\language78
+\l@serbianc=\language79
+\l@slovak=\language80
+\l@slovenian=\language81
+\l@spanish=\language82
+\l@swedish=\language83
+\l@thai=\language84
+\l@turkish=\language85
+\l@turkmen=\language86
+\l@ukrainian=\language87
+\l@uppersorbian=\language88
+\l@welsh=\language89
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count351
+\U@D=\dimen197
+\l@unhyphenated=\language90
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2024/01/03 v.1.5.00 Italian support for the babel system
+\it@lettering=\count352
+\it@doublequoteactive=\count353
+\it@ISOcompliance=\count354
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-it.tex UTF-8 Italian hyphenation patterns (/usr/local/texlive/2024/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-it.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-it.tex)))) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/it/babel-italian.tex
+Package babel Info: Importing font and identification data for italian
+(babel)             from babel-it.ini. Reported on input line 11.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-02-20 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count355
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box74
+))
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
+Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/02/13 2.9a Font selection for XeLaTeX and LuaLaTeX (/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count356
+\l__fontspec_language_int=\count357
+\l__fontspec_strnum_int=\count358
+\l__fontspec_tmp_int=\count359
+\l__fontspec_tmpa_int=\count360
+\l__fontspec_tmpb_int=\count361
+\l__fontspec_tmpc_int=\count362
+\l__fontspec_em_int=\count363
+\l__fontspec_emdef_int=\count364
+\l__fontspec_strong_int=\count365
+\l__fontspec_strongdef_int=\count366
+\l__fontspec_tmpa_dim=\dimen198
+\l__fontspec_tmpb_dim=\dimen199
+\l__fontspec_tmpc_dim=\dimen256
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | cache : Lookup cache loaded from /Users/davidequartucci/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:TimesNewRoman:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:TimesNewRoman/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:TimesNewRoman/I:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:TimesNewRoman/BI:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count367
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count368
+\c@listtotal=\count369
+\c@listcount=\count370
+\c@liststart=\count371
+\c@liststop=\count372
+\c@citecount=\count373
+\c@citetotal=\count374
+\c@multicitecount=\count375
+\c@multicitetotal=\count376
+\c@instcount=\count377
+\c@maxnames=\count378
+\c@minnames=\count379
+\c@maxitems=\count380
+\c@minitems=\count381
+\c@citecounter=\count382
+\c@maxcitecounter=\count383
+\c@savedcitecounter=\count384
+\c@uniquelist=\count385
+\c@uniquename=\count386
+\c@refsection=\count387
+\c@refsegment=\count388
+\c@maxextratitle=\count389
+\c@maxextratitleyear=\count390
+\c@maxextraname=\count391
+\c@maxextradate=\count392
+\c@maxextraalpha=\count393
+\c@abbrvpenalty=\count394
+\c@highnamepenalty=\count395
+\c@lownamepenalty=\count396
+\c@maxparens=\count397
+\c@parenlevel=\count398
+\blx@tempcnta=\count399
+\blx@tempcntb=\count400
+\blx@tempcntc=\count401
+\c@blx@maxsection=\count402
+\blx@maxsegment@0=\count403
+\blx@notetype=\count404
+\blx@parenlevel@text=\count405
+\blx@parenlevel@foot=\count406
+\blx@sectionciteorder@0=\count407
+\blx@sectionciteorderinternal@0=\count408
+\blx@entrysetcounter=\count409
+\blx@biblioinstance=\count410
+\labelnumberwidth=\skip59
+\labelalphawidth=\skip60
+\biblabelsep=\skip61
+\bibitemsep=\skip62
+\bibnamesep=\skip63
+\bibinitsep=\skip64
+\bibparsep=\skip65
+\bibhang=\skip66
+\blx@bcfin=\read6
+\blx@bcfout=\write6
+\blx@langwohyphens=\language91
+\c@mincomprange=\count411
+\c@maxcomprange=\count412
+\c@mincompwidth=\count413
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count414
+\c@savedafterword=\count415
+\c@annotator=\count416
+\c@savedannotator=\count417
+\c@author=\count418
+\c@savedauthor=\count419
+\c@bookauthor=\count420
+\c@savedbookauthor=\count421
+\c@commentator=\count422
+\c@savedcommentator=\count423
+\c@editor=\count424
+\c@savededitor=\count425
+\c@editora=\count426
+\c@savededitora=\count427
+\c@editorb=\count428
+\c@savededitorb=\count429
+\c@editorc=\count430
+\c@savededitorc=\count431
+\c@foreword=\count432
+\c@savedforeword=\count433
+\c@holder=\count434
+\c@savedholder=\count435
+\c@introduction=\count436
+\c@savedintroduction=\count437
+\c@namea=\count438
+\c@savednamea=\count439
+\c@nameb=\count440
+\c@savednameb=\count441
+\c@namec=\count442
+\c@savednamec=\count443
+\c@translator=\count444
+\c@savedtranslator=\count445
+\c@shortauthor=\count446
+\c@savedshortauthor=\count447
+\c@shorteditor=\count448
+\c@savedshorteditor=\count449
+\c@labelname=\count450
+\c@savedlabelname=\count451
+\c@institution=\count452
+\c@savedinstitution=\count453
+\c@lista=\count454
+\c@savedlista=\count455
+\c@listb=\count456
+\c@savedlistb=\count457
+\c@listc=\count458
+\c@savedlistc=\count459
+\c@listd=\count460
+\c@savedlistd=\count461
+\c@liste=\count462
+\c@savedliste=\count463
+\c@listf=\count464
+\c@savedlistf=\count465
+\c@location=\count466
+\c@savedlocation=\count467
+\c@organization=\count468
+\c@savedorganization=\count469
+\c@origlocation=\count470
+\c@savedoriglocation=\count471
+\c@origpublisher=\count472
+\c@savedorigpublisher=\count473
+\c@publisher=\count474
+\c@savedpublisher=\count475
+\c@language=\count476
+\c@savedlanguage=\count477
+\c@origlanguage=\count478
+\c@savedoriglanguage=\count479
+\c@pageref=\count480
+\c@savedpageref=\count481
+\shorthandwidth=\skip67
+\shortjournalwidth=\skip68
+\shortserieswidth=\skip69
+\shorttitlewidth=\skip70
+\shortauthorwidth=\skip71
+\shorteditorwidth=\skip72
+\locallabelnumberwidth=\skip73
+\locallabelalphawidth=\skip74
+\localshorthandwidth=\skip75
+\localshortjournalwidth=\skip76
+\localshortserieswidth=\skip77
+\localshorttitlewidth=\skip78
+\localshortauthorwidth=\skip79
+\localshorteditorwidth=\skip80
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count482
+\c@textcitetotal=\count483
+\c@textcitemaxnames=\count484
+\c@biburlbigbreakpenalty=\count485
+\c@biburlbreakpenalty=\count486
+\c@biburlnumpenalty=\count487
+\c@biburlucpenalty=\count488
+\c@biburllcpenalty=\count489
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count490
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count491
+\c@bbx:relatedtotal=\count492
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count493
+\c@cbx@tempcntb=\count494
+\c@cbx@tempcntc=\count495
+\c@cbx@tempcntd=\count496
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2024-02-20 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'italian'.
+runsystem(command -v pygmentize && touch main.aex)...executed.
+runsystem(rm main.aex)...executed.
+ (./main.aux)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 53.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count497
+\scratchdimen=\dimen257
+\scratchbox=\box75
+\nofMPsegments=\count498
+\nofMParguments=\count499
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count500
+\MPscratchDim=\dimen258
+\MPnumerator=\count501
+\makeMPintoPDFobject=\count502
+\everyMPtoPDFconversion=\toks36
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot twoside 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=664.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-15.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 53.
+(./main.out) (./main.out)
+\@outlinefile=\write7
+
+\openout7 = main.out
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 53.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 53.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 53.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 53.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 53.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 53.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 53.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 53.
+LaTeX Font Info:    Redeclaring math accent \check on input line 53.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 53.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 53.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 53.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 53.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 53.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 53.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 53.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 53.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 53.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 53.
+Package biblatex Info: Trying to load language 'italian'...
+Package biblatex Info: ... file 'italian.lbx' found.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
+File: italian.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout6 = main.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
+ (./Capitoli/frontespizio.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+warning  (file Immagini/logo_unipd.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.5', but at most version '1.4' allowed
+<Immagini/logo_unipd.pdf, id=130, 335.2525pt x 153.57375pt>
+File: Immagini/logo_unipd.pdf Graphic file (type pdf)
+<use Immagini/logo_unipd.pdf>
+Package luatex.def Info: Immagini/logo_unipd.pdf  used on input line 7.
+(luatex.def)             Requested size: 182.09486pt x 83.41365pt.
+
+warning  (file Immagini/logo_dei.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.5', but at most version '1.4' allowed
+<Immagini/logo_dei.pdf, id=131, 98.3675pt x 63.23625pt>
+File: Immagini/logo_dei.pdf Graphic file (type pdf)
+<use Immagini/logo_dei.pdf>
+Package luatex.def Info: Immagini/logo_dei.pdf  used on input line 11.
+(luatex.def)             Requested size: 136.57462pt x 87.80452pt.
+
+LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
+(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 21.
+
+[1
+
+
+<./Immagini/logo_unipd.pdf><./Immagini/logo_dei.pdf>]) [2
+
+
+] (./Capitoli/dedica.tex) [3] [4
+
+] [5
+
+] [6
+
+] (./main.toc [7
+
+])
+\tf@toc=\write8
+
+\openout8 = main.toc
+ [8] (./main.lof)
+\tf@lof=\write9
+
+\openout9 = main.lof
+ [9
+
+
+] [10
+
+] (./Capitoli/Introduzione.tex
+Capitolo 1.
+[1
+
+]
+<Immagini/LogoREA.png, id=268, 205.76875pt x 75.28125pt>
+File: Immagini/LogoREA.png Graphic file (type png)
+<use Immagini/LogoREA.png>
+Package luatex.def Info: Immagini/LogoREA.png  used on input line 17.
+(luatex.def)             Requested size: 227.62206pt x 83.27713pt.
+ [2<./Immagini/LogoREA.png>]) (./Capitoli/FdTeoriciSuAutomRoboticaInd.tex [3] [4
+
+]
+Capitolo 2.
+[5]
+<Immagini/SCADA_system.jpg, id=296, 727.71875pt x 355.3275pt>
+File: Immagini/SCADA_system.jpg Graphic file (type jpg)
+<use Immagini/SCADA_system.jpg>
+Package luatex.def Info: Immagini/SCADA_system.jpg  used on input line 22.
+(luatex.def)             Requested size: 318.66948pt x 155.60178pt.
+ [6]
+<Immagini/Operatore_SCADA.jpg, id=309, 730.76318pt x 494.54182pt>
+File: Immagini/Operatore_SCADA.jpg Graphic file (type jpg)
+<use Immagini/Operatore_SCADA.jpg>
+Package luatex.def Info: Immagini/Operatore_SCADA.jpg  used on input line 38.
+(luatex.def)             Requested size: 227.62206pt x 154.03835pt.
+ [7<./Immagini/SCADA_system.jpg>]
+<Immagini/loghi.jpg, id=315, 759.43227pt x 537.54546pt>
+File: Immagini/loghi.jpg Graphic file (type jpg)
+<use Immagini/loghi.jpg>
+Package luatex.def Info: Immagini/loghi.jpg  used on input line 48.
+(luatex.def)             Requested size: 227.62206pt x 161.11723pt.
+ [8<./Immagini/Operatore_SCADA.jpg><./Immagini/loghi.jpg>] [9]
+<Immagini/dashboard.png, id=329, 1937.2375pt x 1135.24126pt>
+File: Immagini/dashboard.png Graphic file (type png)
+<use Immagini/dashboard.png>
+Package luatex.def Info: Immagini/dashboard.png  used on input line 82.
+(luatex.def)             Requested size: 227.62206pt x 133.3822pt.
+) (./Capitoli/ProgettazioneSistemaSCADA.tex [10<./Immagini/dashboard.png>]
+Capitolo 3.
+[11
+
+]
+Underfull \hbox (badness 1552) in paragraph at lines 19--20
+[]\TU/TimesNewRoman(0)/m/sc/12 Crea-re un in-ter-fac-cia quan-to più user-friendly pos-si-bi-le, per fa-ci-li-ta-re l’u-ti-liz-zo e
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 20--21
+[]\TU/TimesNewRoman(0)/m/sc/12 De-fi-ni-re un ”ri-cet-ta-rio” di ba-se, ov-ve-ro una strut-tu-ra con-fi-gu-ra-bi-le e fa-cil-men-te
+ []
+
+[12]
+<Immagini/HMI00.png, id=357, 2309.62875pt x 1227.58624pt>
+File: Immagini/HMI00.png Graphic file (type png)
+<use Immagini/HMI00.png>
+Package luatex.def Info: Immagini/HMI00.png  used on input line 39.
+(luatex.def)             Requested size: 455.24411pt x 241.95392pt.
+ [13<./Immagini/HMI00.png>]
+<Immagini/HMI01.png, id=363, 1393.205pt x 793.96625pt>
+File: Immagini/HMI01.png Graphic file (type png)
+<use Immagini/HMI01.png>
+Package luatex.def Info: Immagini/HMI01.png  used on input line 52.
+(luatex.def)             Requested size: 455.24411pt x 259.42918pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14<./Immagini/HMI01.png>] [15]
+<Immagini/AnagraficaArticoli.png, id=375, 1679.27374pt x 882.29625pt>
+File: Immagini/AnagraficaArticoli.png Graphic file (type png)
+<use Immagini/AnagraficaArticoli.png>
+Package luatex.def Info: Immagini/AnagraficaArticoli.png  used on input line 72.
+(luatex.def)             Requested size: 455.24411pt x 239.17902pt.
+ [16<./Immagini/AnagraficaArticoli.png>]
+\openout3 = main.pyg
+ (./_minted-main/default.pygstyle) [17] (./_minted-main/95ABE3160EBF7EBC02A83D156EBC031850EB15C0A2CA8D5A1F16281FC253576A.pygtex
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 4.
+)
+\openout3 = main.pyg
+ [18] (./_minted-main/CAE6A3F68DD13B84FBCDEF2A7FBCD48250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19] (./_minted-main/CD0FA203AFEC9848EFD9A58B73070B8450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [20]
+<Immagini/Produzione.png, id=417, 1509.64pt x 379.4175pt>
+File: Immagini/Produzione.png Graphic file (type png)
+<use Immagini/Produzione.png>
+Package luatex.def Info: Immagini/Produzione.png  used on input line 236.
+(luatex.def)             Requested size: 455.24411pt x 114.41664pt.
+
+\openout3 = main.pyg
+ (./_minted-main/7DDBFB2C813D40897396A06E52C9A49650EB15C0A2CA8D5A1F16281FC253576A.pygtex) [21<./Immagini/Produzione.png>]
+<Immagini/ExtraProduzione.png, id=428, 1696.3375pt x 946.53625pt>
+File: Immagini/ExtraProduzione.png Graphic file (type png)
+<use Immagini/ExtraProduzione.png>
+Package luatex.def Info: Immagini/ExtraProduzione.png  used on input line 290.
+(luatex.def)             Requested size: 455.24411pt x 254.02281pt.
+
+\openout3 = main.pyg
+ (./_minted-main/7565ABD820C25F9043CD9E931863024450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [22]
+\openout3 = main.pyg
+ (./_minted-main/82C225EFF97E88D2520EABC6AA51F20850EB15C0A2CA8D5A1F16281FC253576A.pygtex) [23<./Immagini/ExtraProduzione.png>]
+<Immagini/StoricoProduzione.png, id=442, 1922.18124pt x 1081.03876pt>
+File: Immagini/StoricoProduzione.png Graphic file (type png)
+<use Immagini/StoricoProduzione.png>
+Package luatex.def Info: Immagini/StoricoProduzione.png  used on input line 352.
+(luatex.def)             Requested size: 455.24411pt x 256.02357pt.
+
+\openout3 = main.pyg
+ (./_minted-main/610EDE15263CA8D74830BF4778B83CCE50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [24]
+<Immagini/CartellaAllarmi.png, id=451, 341.275pt x 380.42125pt>
+File: Immagini/CartellaAllarmi.png Graphic file (type png)
+<use Immagini/CartellaAllarmi.png>
+Package luatex.def Info: Immagini/CartellaAllarmi.png  used on input line 402.
+(luatex.def)             Requested size: 159.33821pt x 177.61963pt.
+<Immagini/AllarmiInfografica.png, id=452, 598.235pt x 368.37625pt>
+File: Immagini/AllarmiInfografica.png Graphic file (type png)
+<use Immagini/AllarmiInfografica.png>
+Package luatex.def Info: Immagini/AllarmiInfografica.png  used on input line 410.
+(luatex.def)             Requested size: 250.38564pt x 154.18297pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25<./Immagini/StoricoProduzione.png>]
+<Immagini/Allarmi.png, id=461, 1923.185pt x 1077.02374pt>
+File: Immagini/Allarmi.png Graphic file (type png)
+<use Immagini/Allarmi.png>
+Package luatex.def Info: Immagini/Allarmi.png  used on input line 421.
+(luatex.def)             Requested size: 455.24411pt x 254.94122pt.
+
+\openout3 = main.pyg
+ [26<./Immagini/CartellaAllarmi.png><./Immagini/AllarmiInfografica.png>] (./_minted-main/5A3689001844182AB5F2EB22DB88AE5750EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+ (./_minted-main/E820F2526486C4BAF8E9E7F431016B6B50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [27<./Immagini/Allarmi.png>]
+\openout3 = main.pyg
+ (./_minted-main/B119CF04158C49A50630651A35ABD51750EB15C0A2CA8D5A1F16281FC253576A.pygtex) [28]
+<Immagini/tag.png, id=486, 380.42125pt x 840.13875pt>
+File: Immagini/tag.png Graphic file (type png)
+<use Immagini/tag.png>
+Package luatex.def Info: Immagini/tag.png  used on input line 504.
+(luatex.def)             Requested size: 136.57462pt x 301.61646pt.
+
+\openout3 = main.pyg
+ (./_minted-main/E60E373A88DDBC469085767DF67920A250EB15C0A2CA8D5A1F16281FC253576A.pygtex) [29]
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
+ [30<./Immagini/tag.png>]
+\openout3 = main.pyg
+ (./_minted-main/B715C0DF6BBD1F920D861FA2944F93B950EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+ [31] (./_minted-main/3D68408608DD78DCBDF87F26497589F550EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+Underfull \hbox (badness 4699) in paragraph at lines 630--631
+[][]\TU/lmtt/m/n/12 80 = "Attesa RESET segnali da PLC - ok/ko"\TU/TimesNewRoman(0)/m/sc/12 : ve-ri-fi-ca di si-cu-rez-za, at-te-sa
+ []
+
+[32]
+\openout3 = main.pyg
+ (./_minted-main/12477154095FBAC8098896D90A3A400450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [33]
+\openout3 = main.pyg
+ (./_minted-main/5F7D9FDE48CEA28D6CD1FA41EE7882CD50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+ (./_minted-main/7F9106BE09CCCDDF707AD2F83AD02E4250EB15C0A2CA8D5A1F16281FC253576A.pygtex) [34]
+\openout3 = main.pyg
+ (./_minted-main/FA7D25D79D1A330B19C45C8AB6619D8250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+ [35] (./_minted-main/BA8645640D2CBCBF0F31995FC0BA058C50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+ (./_minted-main/D0F8CEBE3F28FC1D9925E09845A477A150EB15C0A2CA8D5A1F16281FC253576A.pygtex) [36]
+\openout3 = main.pyg
+ (./_minted-main/A72ED2A60E734F251465E5D72AFEABB150EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [37] (./_minted-main/3EA600B42F6E0E96C56F729E2C1DF2EC50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+Overfull \vbox (0.91315pt too high) detected at line 946
+ []
+
+[38]
+\openout3 = main.pyg
+ (./_minted-main/2CC6189B3B35E3C6B83A19647E78CD9350EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+ [39] (./_minted-main/01EA20ED434F1955DF5504E16B02DF1250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
+ [40]
+\openout3 = main.pyg
+ (./_minted-main/4713AA198AD8C2975E246A33490F011850EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+\openout3 = main.pyg
+ (./_minted-main/A9BA60BF248BC2DB3A731B5614BE32C950EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+Underfull \hbox (badness 2828) in paragraph at lines 1097--1099
+\TU/TimesNewRoman(0)/m/sc/12 In que-sto ca-pi-to-lo ab-bia-mo ana-liz-za-to i pun-ti sa-lien-ti del main cy-cle. Per vi-sio-na-
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 1097--1099
+\TU/TimesNewRoman(0)/m/sc/12 re il co-di-ce com-ple-to far ri-fe-ri-men-to al-la re-po-si-to-ry Gi-tHub, più pre-ci-sa-men-te al fi-le:
+ []
+
+[41]) (./Capitoli/CasoStudio.tex [42]
+Capitolo 4.
+[43
+
+]
+<Immagini/ImportTag.png, id=571, 352.31625pt x 342.27875pt>
+File: Immagini/ImportTag.png Graphic file (type png)
+<use Immagini/ImportTag.png>
+Package luatex.def Info: Immagini/ImportTag.png  used on input line 15.
+(luatex.def)             Requested size: 182.09486pt x 176.90485pt.
+ [44<./Immagini/ImportTag.png>]
+\openout3 = main.pyg
+ (./_minted-main/23CE7EFCA9F01BB353D9507FF316E68C51E00421F9CE83798E63AC0A4472DCBE.pygtex
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 22.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <10> not available
+(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input line 22.
+)
+<Immagini/FTP.png, id=581, 1509.64pt x 426.59375pt>
+File: Immagini/FTP.png Graphic file (type png)
+<use Immagini/FTP.png>
+Package luatex.def Info: Immagini/FTP.png  used on input line 72.
+(luatex.def)             Requested size: 455.24411pt x 128.64305pt.
+ [45] [46<./Immagini/FTP.png>]
+<Immagini/PannelloASEM.jpg, id=595, 1932.21875pt x 1604.99625pt>
+File: Immagini/PannelloASEM.jpg Graphic file (type jpg)
+<use Immagini/PannelloASEM.jpg>
+Package luatex.def Info: Immagini/PannelloASEM.jpg  used on input line 92.
+(luatex.def)             Requested size: 318.66948pt x 264.6905pt.
+) (./Capitoli/Conclusioni.tex [47<./Immagini/PannelloASEM.jpg>] [48
+
+]
+Capitolo 5.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]) [50] [51
+
+
+] [52] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9A9B1A37373D5F3663D7053C1CC83E66;2868.
+runsystem(rm main.pyg)...executed.
+Package logreq Info: Writing requests to 'main.run.xml'.
+
+\openout1 = main.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 34729 strings out of 476447
+ 125004,1977958 words of node,token memory allocated
+ 802 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 44 attribute, 68 glue_spec, 24 attribute_list, 1 write, 16 pdf_action nodes
+   avail lists: 1:7,2:7464,3:500,4:976,5:556,6:132,7:8199,8:214,9:1954,10:142,11:1277
+ 55762 multiletter control sequences out of 65536+600000
+ 78 fonts using 19417935 bytes
+ 79i,11n,89p,2577b,3411s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (62 pages, 6527372 bytes).
+
+PDF statistics: 738 PDF objects out of 1000 (max. 8388607)
+ 169 named destinations out of 1000 (max. 131072)
+ 264 words of extra memory for PDF output out of 10000 (max. 100000000)
+

@@ -1,0 +1,33 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduzione}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Obiettivo di progetto}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}L'azienda: REA Robotics Srl}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}La Mission}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Settori e applicazioni}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Robot utilizzati}{3}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Fondamenti teorici sugli impianti di automazione e robotica industriale}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Contesto di Automazione industriale}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Composizione di uno SCADA}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Funzioni principali dello SCADA}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Piattaforma SCADA e Strumenti Software per la progettazione}{8}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Lista Software utilizzati}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Struttura Generale di FactoryTalk Optix™}{10}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Progettazione del sistema SCADA}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Analisi dei requisiti del cliente}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Strutturazione HMI (Human Machine Interface)}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Considerazioni tecniche sulla risoluzione}{15}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Gestione Database per la produzione}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Anagrafica Articoli}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Ordini di Produzione}{20}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Storici Produzione/Allarmi}{24}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Configurazione Database aziendale}{26}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Sviluppo back-end e integrazione con il PLC}{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Indicizzazione tag variabili}{29}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Sviluppo Macchina a Stati}{31}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Caso Studio: Isole robotizzate di piegatura}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Importazione Tag}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Configurazione variabili}{44}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Gestione FTP Robot, FTP Pressa e passi 50, 55 e 60}{46}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {5}Conclusioni}{49}{chapter.5}%
+\contentsline {chapter}{Bibliografia e Sitografia}{51}{chapter*.22}%

@@ -1,0 +1,467 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{rearoboticsLOGO}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ed523e264e8daf0e813c909954d7f77f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Rea},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{fullhash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{bibnamehash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{authorbibnamehash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{authornamehash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{authorfullhash}{ed523e264e8daf0e813c909954d7f77f}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Homepage ufficiale di Rea Robotics}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rearobotics.it/
+      \endverb
+      \verb{url}
+      \verb https://www.rearobotics.it/
+      \endverb
+    \endentry
+    \entry{spaziowebpdf}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3a3e4d2f6c57eb330a82ec66cfd2e78a}{%
+           family={sconosciuto},
+           familyi={s\bibinitperiod},
+           given={Autore},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a3e4d2f6c57eb330a82ec66cfd2e78a}
+      \strng{fullhash}{3a3e4d2f6c57eb330a82ec66cfd2e78a}
+      \strng{bibnamehash}{3a3e4d2f6c57eb330a82ec66cfd2e78a}
+      \strng{authorbibnamehash}{3a3e4d2f6c57eb330a82ec66cfd2e78a}
+      \strng{authornamehash}{3a3e4d2f6c57eb330a82ec66cfd2e78a}
+      \strng{authorfullhash}{3a3e4d2f6c57eb330a82ec66cfd2e78a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Documento PDF da SpazioWeb}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://files.spazioweb.it/b3/2a/b32ab4b0-bad4-4cfb-ad2f-b36dd422eb86.pdf
+      \endverb
+      \verb{url}
+      \verb https://files.spazioweb.it/b3/2a/b32ab4b0-bad4-4cfb-ad2f-b36dd422eb86.pdf
+      \endverb
+    \endentry
+    \entry{rearobotics}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ed523e264e8daf0e813c909954d7f77f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Rea},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{fullhash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{bibnamehash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{authorbibnamehash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{authornamehash}{ed523e264e8daf0e813c909954d7f77f}
+      \strng{authorfullhash}{ed523e264e8daf0e813c909954d7f77f}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chi Siamo}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.rearobotics.it/chi-siamo/
+      \endverb
+      \verb{url}
+      \verb https://www.rearobotics.it/chi-siamo/
+      \endverb
+    \endentry
+    \entry{sielcosistemi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e070f4737c25a17dd333ff6b8fdf3747}{%
+           family={Sistemi},
+           familyi={S\bibinitperiod},
+           given={Sielco},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e070f4737c25a17dd333ff6b8fdf3747}
+      \strng{fullhash}{e070f4737c25a17dd333ff6b8fdf3747}
+      \strng{bibnamehash}{e070f4737c25a17dd333ff6b8fdf3747}
+      \strng{authorbibnamehash}{e070f4737c25a17dd333ff6b8fdf3747}
+      \strng{authornamehash}{e070f4737c25a17dd333ff6b8fdf3747}
+      \strng{authorfullhash}{e070f4737c25a17dd333ff6b8fdf3747}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cosa è SCADA?}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.sielcosistemi.com/it/cosa-è-scada.html
+      \endverb
+      \verb{url}
+      \verb https://www.sielcosistemi.com/it/cosa-%C3%A8-scada.html
+      \endverb
+    \endentry
+    \entry{exonsys_scada}{online}{}
+      \name{author}{1}{}{%
+        {{hash=da390cdb87eaa04b7db7985d1f5c15a0}{%
+           family={ExonSys},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{da390cdb87eaa04b7db7985d1f5c15a0}
+      \strng{fullhash}{da390cdb87eaa04b7db7985d1f5c15a0}
+      \strng{bibnamehash}{da390cdb87eaa04b7db7985d1f5c15a0}
+      \strng{authorbibnamehash}{da390cdb87eaa04b7db7985d1f5c15a0}
+      \strng{authornamehash}{da390cdb87eaa04b7db7985d1f5c15a0}
+      \strng{authorfullhash}{da390cdb87eaa04b7db7985d1f5c15a0}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SCADA Software Solutions}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://exonsys.com/en/software/scada/
+      \endverb
+      \verb{url}
+      \verb https://exonsys.com/en/software/scada/
+      \endverb
+    \endentry
+    \entry{asemautomation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=937b4a2cd1017bf8f7f2caa52d39a7e6}{%
+           family={S.r.l.},
+           familyi={S\bibinitperiod},
+           given={ASEM},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{937b4a2cd1017bf8f7f2caa52d39a7e6}
+      \strng{fullhash}{937b4a2cd1017bf8f7f2caa52d39a7e6}
+      \strng{bibnamehash}{937b4a2cd1017bf8f7f2caa52d39a7e6}
+      \strng{authorbibnamehash}{937b4a2cd1017bf8f7f2caa52d39a7e6}
+      \strng{authornamehash}{937b4a2cd1017bf8f7f2caa52d39a7e6}
+      \strng{authorfullhash}{937b4a2cd1017bf8f7f2caa52d39a7e6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk® Optix™ Application Software}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.asemautomation.com/it/prodotti/251/factorytalk-optix.html
+      \endverb
+      \verb{url}
+      \verb https://www.asemautomation.com/it/prodotti/251/factorytalk-optix.html
+      \endverb
+    \endentry
+    \entry{rockwelloptixmainwindow}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: Configure the Main Window}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/getting-started/quick-start/configure-and-brand-the-main-window/configure-the-main-window.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/getting-started/quick-start/configure-and-brand-the-main-window/configure-the-main-window.html
+      \endverb
+    \endentry
+    \entry{factorytalk_datagrid_example}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: Data Grid Example}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/developing-solutions/object-examples/data-grid-example.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/developing-solutions/object-examples/data-grid-example.html
+      \endverb
+    \endentry
+    \entry{rockwelloptixdatastore}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: Datastore Database}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/datastore-database.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/datastore-database.html
+      \endverb
+    \endentry
+    \entry{rockwelloptixsqlquery}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: SQL Query}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/datastore-database/sql-query.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/datastore-database/sql-query.html
+      \endverb
+    \endentry
+    \entry{factorytalk_recipes}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: Recipes}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/recipes.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/recipes.html
+      \endverb
+    \endentry
+    \entry{factorytalk_netlogic}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: Developing Projects with C\# - NetLogic}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/developing-solutions/developing-projects-with-csharp/netlogic.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/developing-solutions/developing-projects-with-csharp/netlogic.html
+      \endverb
+    \endentry
+    \entry{factorytalk_users_groups}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: Users and Groups}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/users-and-groups.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/users-and-groups.html
+      \endverb
+    \endentry
+    \entry{factorytalk_alarms}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: Alarms}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/alarms.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/using-the-software/alarms.html
+      \endverb
+    \endentry
+    \entry{factorytalk_odbcstore}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: ODBC Store Object Types}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/developing-solutions/object-and-variable-references/ftoptix-odbcstore/objecttypes/odbcstore.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/developing-solutions/object-and-variable-references/ftoptix-odbcstore/objecttypes/odbcstore.html
+      \endverb
+    \endentry
+    \entry{factorytalk_setdynamiclink}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6921e4e533a14632c2f59dd8f37a5c9}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={Rockwell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{fullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{bibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorbibnamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authornamehash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \strng{authorfullhash}{c6921e4e533a14632c2f59dd8f37a5c9}
+      \field{extraname}{10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FactoryTalk Optix: IUA Variable - SetDynamicLink3}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/developing-solutions/developing-projects-with-csharp/csharp-apis-reference/manage-dynamic-links/iuavariable-setdynamiclink3.html
+      \endverb
+      \verb{url}
+      \verb https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-00/contents-ditamap/developing-solutions/developing-projects-with-csharp/csharp-apis-reference/manage-dynamic-links/iuavariable-setdynamiclink3.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

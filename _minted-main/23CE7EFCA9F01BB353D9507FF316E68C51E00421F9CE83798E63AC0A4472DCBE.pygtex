@@ -1,0 +1,33 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{...}
+
+\PYG{k}{public}\PYG{+w}{ }\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{AssociazioneVarModelloAPLC}\PYG{+w}{ }\PYG{p}{:}\PYG{+w}{ }\PYG{n}{BaseNetLogic}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n+na}{[ExportMethod]}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{Method1}\PYG{p}{()}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{c+cm}{/*\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{c+cm}{          variabili di modello}
+\PYG{c+cm}{        */}
+
+\PYG{+w}{        }\PYG{c+c1}{//DB91}
+\PYG{+w}{        }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{modello000}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Model/Drivers/DB91/DB91\PYGZus{}CambioProduzione\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{        }\PYG{p}{...}\PYG{+w}{ }\PYG{c+c1}{// la lista prosegue con tutte le variabili di modello}
+
+\PYG{+w}{        }\PYG{c+cm}{/*\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{c+cm}{          variabili di PLC}
+\PYG{c+cm}{        */}
+
+\PYG{+w}{        }\PYG{c+c1}{// DB91}
+\PYG{+w}{        }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{varPLC000}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}CommDrivers/S7TIAPROFINETDriver3/S7TIAPROFINETStation1/Tags/PRG10021/Standard/90\PYGZhy{}HMI/DB91\PYGZhy{}HMItoPLC/CambioProduzione\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{        }\PYG{p}{...}\PYG{+w}{ }\PYG{c+c1}{// la lista prosegue con tutte le variabili di PLC}
+
+\PYG{+w}{        }\PYG{c+cm}{/*\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{c+cm}{          dynamicLink per Optix}
+\PYG{c+cm}{        */}
+\PYG{+w}{        }\PYG{n}{modello000}\PYG{p}{.}\PYG{n}{SetDynamicLink}\PYG{p}{(}\PYG{n}{varPLC000}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DynamicLinkMode}\PYG{p}{.}\PYG{n}{ReadWrite}\PYG{p}{);}
+\PYG{+w}{        }\PYG{p}{...}\PYG{+w}{ }\PYG{c+c1}{// la lista prosegue con tutti i dynamicLink tra la prima e seconda lista}
+
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

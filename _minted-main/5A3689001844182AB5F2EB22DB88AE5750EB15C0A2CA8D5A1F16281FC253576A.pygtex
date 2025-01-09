@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{public}\PYG{+w}{ }\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{DesignTimeConfiguraDB}\PYG{+w}{ }\PYG{p}{:}\PYG{+w}{ }\PYG{n}{BaseNetLogic}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{DB\PYGZus{}SERVER}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}.\PYGZbs{}\PYGZbs{}SQLEXPRESS\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{DB\PYGZus{}NAME}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PRG\PYGZus{}OPTIX\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{DB\PYGZus{}USER}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}sa\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{DB\PYGZus{}PASSWORD}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}reaSQL\PYGZdq{}}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{\PYGZus{}connectionString}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdl{}\PYGZdq{}Server=\PYGZob{}DB\PYGZus{}SERVER\PYGZcb{};Database=\PYGZob{}DB\PYGZus{}NAME\PYGZcb{};User Id=\PYGZob{}DB\PYGZus{}USER\PYGZcb{};Password=\PYGZob{}DB\PYGZus{}PASSWORD\PYGZcb{};\PYGZdq{}}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

@@ -1,0 +1,90 @@
+% le caratteristiche richieste dall'università sono elencate qui: https://stem.elearning.unipd.it/mod/book/view.php?id=234&chapterid=46#modalita
+% 12pt: font richiesto dall'università
+% twoside: i margini interni ed esterni sono scambiati per le pagine "a sinistra" e "a destra"
+% openright: i capitoli cominciano in pagine dispari ("a destra")
+% extreport: supporta 12pt
+\documentclass[12pt,a4paper,twoside,openright]{extreport}
+
+\usepackage{amsmath}                            % per avere più controllo sulle equazioni 
+\usepackage{csquotes}                           % per le citazioni
+\usepackage{enumitem}                           % per avere più controllo sulle enumerazioni
+\usepackage{wrapfig}                            % Per avvolgere il testo attorno alle immagini
+\usepackage{subcaption}                         % Per immagini affiancate con didascalie
+\usepackage{xcolor}                             % Pacchetto per gestire i colori
+\usepackage[
+    a4paper,
+    top=2cm,bottom=2cm,
+    outer=2cm,inner=3cm,
+    includeheadfoot
+]{geometry}                                     % margini richiesti dall'università
+\usepackage{graphicx}                           % per le immagini
+\usepackage{icomma}                             % per separare le cifre decimali con una virgola
+\usepackage{minted}                             % per il codice con la colorazione della sintassi
+
+% Definisci il colore dello sfondo
+\definecolor{bgcolor}{rgb}{0.95, 0.95, 0.95} % Sfondo grigio chiaro
+
+% Definisci un nuovo ambiente per il codice C#
+\newminted[csharp]{csharp}{bgcolor=bgcolor, linenos=true, numbersep=8pt, fontfamily=tt, fontsize=\tiny, breaklines=true, escapeinside=||}
+
+\usepackage[a-1a]{pdfx}                         % formato richiesto dall'università
+\usepackage[output-decimal-marker={,}]{siunitx} % per le unità di misura
+%\usepackage{svg}                               % per inserire file SVG
+
+\usepackage[italian]{babel}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}                   % carattere richiesto dall'università
+
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{bibliografia.bib}
+
+\usepackage{setspace}
+\onehalfspacing                                 % interlinea richiesta dall'università
+
+\sloppy                                         % per evitare che il testo in \verb finisca oltre i margini
+
+% questi valori vengono usati nella composizione del frontespizio
+\title{Progettazione e Sviluppo di una Soluzione SCADA per Isole Robotizzate}
+\author{Quartucci Davide}
+\date{GG/MM/AAAA}
+\newcommand{\supervisor}{Prof. Menegatti Emanuele}
+\newcommand{\assistantsupervisor}{Pavarin Laura}
+
+\begin{document}
+    \pagenumbering{roman}
+    \pagestyle{empty}                           % per le prime pagine, non mostrare il numero di pagina
+
+    \input{Capitoli/frontespizio}
+    \cleardoublepage
+    
+    \input{Capitoli/dedica}
+    \cleardoublepage
+
+    \pagestyle{plain}                           % comincia a mostrare il numero di pagina
+
+    % NOTA: l'ambiente \abstract rimuove il numero della pagina e resetta il contatore delle pagine. 
+    \chapter*{Sommario}
+    La progettazione di un sistema SCADA completo è stata articolata in quattro fasi principali. In primo luogo, si è da subito condotta un'accurata analisi dei requisiti, con la partecipazione attiva di ingegneri, tecnici e programmatori PLC per poter definire con precisione le scelte progettuali. Successivamente, lo step fondamentale è stato strutturare l’HMI (Human Machine Interface), progettata utilizzando il software FactoryTalk Optix Studio della Rockwell Automation per garantire un'interfaccia intuitiva e funzionale. L'interfaccia è stata organizzata in sezioni, tra cui la sezione Home, che consente il monitoraggio dello stato del robot, e altre aree come Produzione per la gestione degli ordini e dei comandi, Anagrafica per la configurazione dei prodotti, Comandi Manuali per il controllo diretto dell'impianto, Allarmi per la gestione dei segnali del sistema e Impostazioni per la configurazione dei parametri operativi. La terza fase ha riguardato la gestione di tutti i dati, per la quale sono stati usati 2 database attraverso SQLite e SQLExpress. La scelta di utilizzare sia un database locale che uno connesso ha permesso di rendere il sistema adatto sia per le macchine più semplici che per gli impianti più complessi, in linea con gli attuali principi dell'Industria 4.0; di fatto il sistema di gestione dei dati è stato pensato per garantire riferimenti sempre aggiornati alle tabelle, che potessero comunicare con l'interfaccia. L'ultima fase della progettazione ha riguardato lo sviluppo della parte di back-end e l'integrazione con il PLC. In questa fase, l'intera logica del sistema è stata implementata utilizzando C\# su vari script, che consentono la comunicazione tra HMI, database e PLC. Infine, è stato deciso di applicare lo SCADA a una cella DEMO di piegatura, dimostrando l'efficacia del sistema nella gestione automatizzata dei processi produttivi industriali. 
+    \begin{flushright}
+        \textit{Il codice sorgente citato e utilizzato per questa tesi fa riferimento alla seguente repository:} \url{https://github.com/Quuartu/SCADA_v2.git}    
+    \end{flushright}
+    
+    \cleardoublepage
+
+    \tableofcontents
+    \cleardoublepage
+    
+    \listoffigures
+    \cleardoublepage                            % per assicurarsi che la numerazione araba cominci col primo capitolo
+    
+    \pagenumbering{arabic}
+
+    \input{Capitoli/Introduzione}
+    \input{Capitoli/FdTeoriciSuAutomRoboticaInd}
+    \input{Capitoli/ProgettazioneSistemaSCADA}
+    \input{Capitoli/CasoStudio}
+    \input{Capitoli/Conclusioni}
+    \cleardoublepage
+
+    \printbibliography[heading=bibintoc, title={Bibliografia e Sitografia}]
+\end{document}

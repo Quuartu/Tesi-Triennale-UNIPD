@@ -1,0 +1,75 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{    }\PYG{c+c1}{// Metodo per controllare e leggere il file}
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{k}{static}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{ControllaFile}\PYG{p}{(}\PYG{n}{Object}\PYG{+w}{ }\PYG{n}{source}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ElapsedEventArgs}\PYG{+w}{ }\PYG{n}{e}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{c+c1}{// Specifica la cartella e il nome del file}
+\PYG{+w}{        }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{cartella}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{@\PYGZdq{}C:\PYGZbs{}Users\PYGZbs{}davide.quartucci\PYGZbs{}Desktop\PYGZbs{}InserimentoAnagraficaSuDB\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{nomeFile}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}dati.txt\PYGZdq{}}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{c+c1}{// Cerca il file nella cartella specificata}
+\PYG{+w}{        }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{percorsoFile}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Path}\PYG{p}{.}\PYG{n}{Combine}\PYG{p}{(}\PYG{n}{cartella}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{nomeFile}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{File}\PYG{p}{.}\PYG{n}{Exists}\PYG{p}{(}\PYG{n}{percorsoFile}\PYG{p}{)}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k}{try}
+\PYG{+w}{            }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{c+c1}{// Leggi il contenuto del file}
+\PYG{+w}{                }\PYG{k+kt}{string}\PYG{p}{[}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{righe}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{File}\PYG{p}{.}\PYG{n}{ReadAllLines}\PYG{p}{(}\PYG{n}{percorsoFile}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{                }\PYG{k}{foreach}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{riga}\PYG{+w}{ }\PYG{k}{in}\PYG{+w}{ }\PYG{n}{righe}\PYG{p}{)}
+\PYG{+w}{                }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{k}{try}
+\PYG{+w}{                    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{c+c1}{// Dividi la riga in tre parti usando il separatore \PYGZsq{};\PYGZsq{}}
+\PYG{+w}{                        }\PYG{k+kt}{string}\PYG{p}{[}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{campi}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{riga}\PYG{p}{.}\PYG{n}{Split}\PYG{p}{(}\PYG{l+s+sc}{\PYGZsq{};\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{                        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{campi}\PYG{p}{.}\PYG{n}{Length}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{+w}{                        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                            }\PYG{k}{throw}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n+nf}{FormatException}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}La riga non contiene esattamente 3 campi.\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{                        }\PYG{c+c1}{// Assegna i campi a variabili locali}
+\PYG{+w}{                        }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{Product\PYGZus{}ID}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{campi}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{Descr}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{campi}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{Robot\PYGZus{}Program}\PYG{p}{;}
+
+\PYG{+w}{                        }\PYG{c+c1}{// Prova a convertire il terzo campo in un intero}
+\PYG{+w}{                        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{k+kt}{int}\PYG{p}{.}\PYG{n}{TryParse}\PYG{p}{(}\PYG{n}{campi}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{Robot\PYGZus{}Program}\PYG{p}{)}\PYG{p}{)}
+\PYG{+w}{                        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                            }\PYG{k}{throw}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n+nf}{FormatException}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Il campo Robot\PYGZus{}Program non è un intero valido.\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{                        }\PYG{c+c1}{//Esegue l\PYGZsq{}inserimento nel DB di una nuova anagrafica}
+\PYG{+w}{                        }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{myStore}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{Get}\PYG{o}{\PYGZlt{}}\PYG{n}{Store}\PYG{o}{\PYGZgt{}}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}DataStores/EmbeddedDatabase1\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{myTable}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{myStore}\PYG{p}{.}\PYG{n}{Tables}\PYG{p}{.}\PYG{n}{Get}\PYG{o}{\PYGZlt{}}\PYG{n}{Table}\PYG{o}{\PYGZgt{}}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}RecipeSchema1\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{k+kt}{string}\PYG{p}{[}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{columns}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Name\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Descr\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Robot\PYGZus{}Program\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Product\PYGZus{}ID\PYGZdq{}}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{values}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{k+kt}{object}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Product\PYGZus{}ID}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Descr}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Robot\PYGZus{}Program}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Product\PYGZus{}ID}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{n}{myTable}\PYG{p}{.}\PYG{n}{Insert}\PYG{p}{(}\PYG{n}{columns}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{values}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{FormatException}\PYG{+w}{ }\PYG{n}{ex}\PYG{p}{)}
+\PYG{+w}{                    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+s}{\PYGZdl{}\PYGZdq{}Errore: formato dei dati non valido nella riga \PYGZsq{}\PYGZob{}riga\PYGZcb{}\PYGZsq{}.\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{                }\PYG{c+c1}{// Elimina il file dopo la lettura}
+\PYG{+w}{                }\PYG{n}{File}\PYG{p}{.}\PYG{n}{Delete}\PYG{p}{(}\PYG{n}{percorsoFile}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{            }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{Exception}\PYG{+w}{ }\PYG{n}{ex}\PYG{p}{)}
+\PYG{+w}{            }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+s}{\PYGZdl{}\PYGZdq{}Si è verificato un errore durante la lettura del file: \PYGZob{}ex.Message\PYGZcb{}\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{        }\PYG{k}{else}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{c+c1}{// Se il file non esiste, ignora semplicemente e continua}
+\PYG{+w}{            }\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+s}{\PYGZdl{}\PYGZdq{}File non trovato: \PYGZob{}percorsoFile\PYGZcb{}. Verrà controllato di nuovo.\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

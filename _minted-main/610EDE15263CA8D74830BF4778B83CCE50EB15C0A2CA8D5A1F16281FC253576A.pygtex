@@ -1,0 +1,39 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{k}{public}\PYG{+w}{ }\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{RuntimeNetLogicReaToClienteStoricoLocale}\PYG{+w}{ }\PYG{p}{:}\PYG{+w}{ }\PYG{n}{BaseNetLogic}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}\PYG{+w}{ }\PYG{c+c1}{//Altro codice fornito da FT Optix}
+
+\PYG{+w}{    }\PYG{c+c1}{/// \PYGZlt{}summary\PYGZgt{}}
+\PYG{+w}{    }\PYG{c+c1}{/// Inserisce un record nello storico}
+\PYG{+w}{    }\PYG{c+c1}{/// \PYGZlt{}/summary\PYGZgt{}}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{sp\PYGZus{}InsertLocale}\PYG{p}{(}\PYG{n}{ReaToClienteLocale}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{try}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k+kt}{string}\PYG{p}{[}\PYG{p}{]}\PYG{+w}{ }\PYG{n}{columns}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Production\PYGZus{}Command\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Product\PYGZus{}ID\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/dt\PYGZus{}start\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/dt\PYGZus{}end\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Quantity\PYGZus{}Requested\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Quantity\PYGZus{}Produced\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Total\PYGZus{}Reject\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}/Extra\PYGZus{}Production\PYGZdq{}}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+
+\PYG{+w}{            }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{values}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{k+kt}{object}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{8}\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Production\PYGZus{}Command}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Product\PYGZus{}ID}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{dt\PYGZus{}start}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{dt\PYGZus{}end}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Quantity\PYGZus{}Requested}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Quantity\PYGZus{}Produced}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{6}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Total\PYGZus{}Reject}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{7}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prod}\PYG{p}{.}\PYG{n}{Extra\PYGZus{}Production}\PYG{p}{;}
+
+\PYG{+w}{            }\PYG{n}{\PYGZus{}store}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{Get}\PYG{o}{\PYGZlt{}}\PYG{n}{Store}\PYG{o}{\PYGZgt{}}\PYG{p}{(}\PYG{n}{DATASTORE\PYGZus{}DATABASE}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{\PYGZus{}table}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{\PYGZus{}store}\PYG{p}{.}\PYG{n}{Tables}\PYG{p}{.}\PYG{n}{Get}\PYG{o}{\PYGZlt{}}\PYG{n}{Table}\PYG{o}{\PYGZgt{}}\PYG{p}{(}\PYG{n}{TABLE\PYGZus{}NAME}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{\PYGZus{}table}\PYG{p}{.}\PYG{n}{Insert}\PYG{p}{(}\PYG{n}{columns}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{values}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{        }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{Exception}\PYG{+w}{ }\PYG{n}{ex}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{Log}\PYG{p}{.}\PYG{n}{Warning}\PYG{p}{(}\PYG{l+s}{\PYGZdl{}\PYGZdq{}ERROR: sp\PYGZus{}InsertLocale \PYGZob{}ex.Message\PYGZcb{}\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{p}{\PYGZcb{}}
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

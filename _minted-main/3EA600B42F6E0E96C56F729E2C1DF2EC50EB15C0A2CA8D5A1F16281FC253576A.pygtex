@@ -1,0 +1,75 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{    }\PYG{k}{case}\PYG{+w}{ }\PYG{l+m+mi}{100}\PYG{p}{:}
+\PYG{+w}{    }\PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{+w}{    }\PYG{n}{MachineStatusText}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}IN LAVORO\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{+w}{    }\PYG{c+c1}{// Seleziona il data store e i nomi dei campi in base a DBExpress.Value}
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+
+\PYG{+w}{    }\PYG{c+c1}{// Aggiorna le quantità se necessario}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DB92\PYGZus{}PezziDepositati}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{Mem\PYGZus{}PezziDepositati}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }
+\PYG{+w}{        }\PYG{n}{DB92\PYGZus{}PezziScarti}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{Mem\PYGZus{}PezziScarti}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }
+\PYG{+w}{        }\PYG{n}{DB92\PYGZus{}QtaRiordino}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{Mem\PYGZus{}QtaRiordino}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{AggiornaQuantita}\PYG{p}{(}\PYG{n}{myStore}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{tableName}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{idField}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{quantityProducedField}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{totalRejectField}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{c+c1}{// Verifica se è stata raggiunta la quantità richiesta più l\PYGZsq{}extra produzione}
+\PYG{+w}{    }\PYG{n}{ControllaExtraProduzione}\PYG{p}{(}\PYG{n}{myStore}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{tableName}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{idField}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{quantityRequestedField}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{extraProductionField}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{c+c1}{// Gestisce la richiesta di fine produzione}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pr\PYGZus{}ButtonTerminaSelected}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{pr\PYGZus{}ButtonTerminaSelected}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{false}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{MachineStatus}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{148}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Codice di stato per \PYGZdq{}fine produzione\PYGZdq{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{c+c1}{// Funzione per aggiornare le quantità}
+\PYG{+w}{    }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{AggiornaQuantita}\PYG{p}{(}\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}\PYG{+w}{ }\PYG{c+c1}{//variabili richieste)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{        }\PYG{c+c1}{// Aggiorna quantità pezzi prodotti}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DB92\PYGZus{}PezziDepositati}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{Mem\PYGZus{}PezziDepositati}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{query}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdl{}\PYGZdq{}UPDATE \PYGZob{}table\PYGZcb{} SET \PYGZob{}quantityProducedFieldName\PYGZcb{} = \PYGZsq{}\PYGZob{}(uint)DB92\PYGZus{}PezziDepositati.Value\PYGZcb{}\PYGZsq{} WHERE \PYGZob{}idFieldName\PYGZcb{} = \PYGZsq{}\PYGZob{}OdlStartLong\PYGZcb{}\PYGZsq{}\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{store}\PYG{p}{.}\PYG{n}{Query}\PYG{p}{(}\PYG{n}{query}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{Header}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{ResultSet}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{Mem\PYGZus{}PezziDepositati}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{DB92\PYGZus{}PezziDepositati}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{        }\PYG{c+c1}{// Aggiorna quantità scarti}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DB92\PYGZus{}PezziScarti}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{Mem\PYGZus{}PezziScarti}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{query}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdl{}\PYGZdq{}UPDATE \PYGZob{}table\PYGZcb{} SET \PYGZob{}totalRejectFieldName\PYGZcb{} = \PYGZsq{}\PYGZob{}(uint)DB92\PYGZus{}PezziScarti.Value\PYGZcb{}\PYGZsq{} WHERE \PYGZob{}idFieldName\PYGZcb{} = \PYGZsq{}\PYGZob{}OdlStartLong\PYGZcb{}\PYGZsq{}\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{store}\PYG{p}{.}\PYG{n}{Query}\PYG{p}{(}\PYG{n}{query}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{Header}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{ResultSet}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{Mem\PYGZus{}PezziScarti}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{DB92\PYGZus{}PezziScarti}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{        }\PYG{c+c1}{// Aggiorna quantità di riordino}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DB92\PYGZus{}QtaRiordino}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{Mem\PYGZus{}QtaRiordino}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{query}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdl{}\PYGZdq{}UPDATE \PYGZob{}table\PYGZcb{} SET \PYGZob{}quantityProducedFieldName\PYGZcb{} = \PYGZsq{}\PYGZob{}(uint)DB92\PYGZus{}PezziDepositati.Value\PYGZcb{}\PYGZsq{} WHERE \PYGZob{}idFieldName\PYGZcb{} = \PYGZsq{}\PYGZob{}OdlStartLong\PYGZcb{}\PYGZsq{}\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{store}\PYG{p}{.}\PYG{n}{Query}\PYG{p}{(}\PYG{n}{query}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{Header}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{ResultSet}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{Mem\PYGZus{}QtaRiordino}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{DB92\PYGZus{}QtaRiordino}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{c+c1}{// Funzione per controllare l\PYGZsq{}extra produzione}
+\PYG{+w}{    }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{ControllaExtraProduzione}\PYG{p}{(}\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}\PYG{+w}{ }\PYG{c+c1}{//variabili richieste)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{        }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{query}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdl{}\PYGZdq{}SELECT \PYGZob{}quantityRequestedFieldName\PYGZcb{}, \PYGZob{}extraProductionFieldName\PYGZcb{} FROM \PYGZob{}table\PYGZcb{} WHERE \PYGZob{}idFieldName\PYGZcb{} = \PYGZsq{}\PYGZob{}OdlStartLong\PYGZcb{}\PYGZsq{}\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{store}\PYG{p}{.}\PYG{n}{Query}\PYG{p}{(}\PYG{n}{query}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{HeaderExtra}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{out}\PYG{+w}{ }\PYG{n}{ResultSetExtra}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{quantityRequested}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Convert}\PYG{p}{.}\PYG{n}{ToInt32}\PYG{p}{(}\PYG{n}{ResultSetExtra}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{extraProduction}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Convert}\PYG{p}{.}\PYG{n}{ToInt32}\PYG{p}{(}\PYG{n}{ResultSetExtra}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{c+c1}{// Richiesta per extra\PYGZhy{}produzione}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DB92\PYGZus{}PezziDepositati}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{quantityRequested}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{extraProduction}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{MachineStatus}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{110}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Codice di stato per \PYGZdq{}extra produzione raggiunta\PYGZdq{}}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{break}\PYG{p}{;}
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

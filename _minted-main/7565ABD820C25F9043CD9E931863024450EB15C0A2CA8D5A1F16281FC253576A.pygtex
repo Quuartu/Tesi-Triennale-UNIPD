@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{    }\PYG{c+c1}{/// \PYGZlt{}summary\PYGZgt{}}
+\PYG{+w}{    }\PYG{c+c1}{/// Avvia produzione}
+\PYG{+w}{    }\PYG{c+c1}{/// \PYGZlt{}/summary\PYGZgt{}}
+\PYG{+w}{    }\PYG{n+na}{[ExportMethod]}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{pr\PYGZus{}AvviaLocale}\PYG{p}{(}\PYG{k+kt}{long}\PYG{+w}{ }\PYG{n}{id}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathOdlStart}\PYG{p}{)}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{id}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{Pathap\PYGZus{}start}\PYG{p}{)}\PYG{p}{.}\PYG{n}{Value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{true}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

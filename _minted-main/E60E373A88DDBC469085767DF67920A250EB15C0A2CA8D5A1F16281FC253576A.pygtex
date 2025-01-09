@@ -1,0 +1,28 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+
+\PYG{k}{public}\PYG{+w}{ }\PYG{k}{static}\PYG{+w}{ }\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{VariablePaths}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}\PYG{+w}{ }\PYG{c+c1}{// lista variabili per HMI}
+
+\PYG{+w}{    }\PYG{c+c1}{//cliente\PYGZus{}to\PYGZus{}rea \PYGZhy{}\PYGZgt{} produzione}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathQueryProduzione}\PYG{+w}{                         }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Produzione/QueryProduzione\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathProduzioneFilterActive}\PYG{+w}{                  }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Produzione/FiltroProduzione/FilterActive\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathProduzioneTextFilter}\PYG{+w}{                    }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Produzione/FiltroProduzione/TextFilter\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathProduzioneAvviaEnabled}\PYG{+w}{                  }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Produzione/ButtonProduzioneEnabled/AvviaEnabled\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+
+\PYG{+w}{    }\PYG{c+c1}{//rea\PYGZus{}to\PYGZus{}cliente \PYGZhy{}\PYGZgt{} storico}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathQueryStorico}\PYG{+w}{                            }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Storico/QueryStorico\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathStoricobdateFilter}\PYG{+w}{                      }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Storico/bdateFilter\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathStoricoDateFrom}\PYG{+w}{                         }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Storico/DateFrom\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathStoricoDateTo}\PYG{+w}{                           }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Storico/DateTo\PYGZdq{}}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{c+c1}{//anagrafica}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathQueryAnagrafica}\PYG{+w}{                         }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Anagrafica/QueryAnagrafica\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathAnagraficaFilterActive}\PYG{+w}{                  }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Anagrafica/FiltroAnagrafica/FilterActive\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{PathAnagraficaTextFilter}\PYG{+w}{                    }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Model/Anagrafica/FiltroAnagrafica/TextFilter\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}\PYG{+w}{ }\PYG{c+c1}{// lista variabili per HMI}
+\end{Verbatim}

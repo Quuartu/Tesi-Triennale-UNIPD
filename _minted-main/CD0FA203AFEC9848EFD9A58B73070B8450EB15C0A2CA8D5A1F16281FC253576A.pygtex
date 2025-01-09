@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{k}{static}\PYG{+w}{ }\PYG{n}{Timer}\PYG{+w}{ }\PYG{n}{timer}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Timer per eseguire l\PYGZsq{}operazione ogni 10 secondi}
+
+\PYG{+w}{    }\PYG{k}{public}\PYG{+w}{ }\PYG{k}{override}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{Start}\PYG{p}{(}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{c+c1}{// Insert code to be executed when the user\PYGZhy{}defined logic is started}
+
+\PYG{+w}{        }\PYG{c+c1}{// Imposta e avvia il timer}
+\PYG{+w}{        }\PYG{n}{timer}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{Timer}\PYG{p}{(}\PYG{l+m+mi}{10000}\PYG{p}{)}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// 10000 millisecondi = 10 secondi}
+\PYG{+w}{        }\PYG{n}{timer}\PYG{p}{.}\PYG{n}{Elapsed}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{ControllaFile}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Associa l\PYGZsq{}evento Elapsed all\PYGZsq{}handler}
+\PYG{+w}{        }\PYG{n}{timer}\PYG{p}{.}\PYG{n}{AutoReset}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{true}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Ripeti l\PYGZsq{}operazione ogni 10 secondi}
+\PYG{+w}{        }\PYG{n}{timer}\PYG{p}{.}\PYG{n}{Enabled}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{true}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Abilita il timer}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\end{Verbatim}

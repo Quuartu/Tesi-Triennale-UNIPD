@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}
+\PYG{+w}{    }\PYG{k}{private}\PYG{+w}{ }\PYG{k}{void}\PYG{+w}{ }\PYG{n+nf}{StateMachine}\PYG{p}{(}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{//inizializzo variabili plc}
+\PYG{+w}{    }\PYG{n}{PopUpNetLogic}\PYG{+w}{ }\PYG{n}{popup}\PYG{+w}{                             }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{PopUpNetLogic}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{popupOK}\PYG{+w}{                                     }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathPopupOK}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{popupYes}\PYG{+w}{                                    }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathPopupYes}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{popupNo}\PYG{+w}{                                     }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathPopupNo}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{MachineStatusText}\PYG{+w}{                           }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathMachineStatusText}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{MachineStatus}\PYG{+w}{                               }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathMachineStatus}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{OdlStart}\PYG{+w}{                                    }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathOdlStart}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{long}\PYG{+w}{ }\PYG{n}{OdlStartLong}\PYG{+w}{                               }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{OdlStart}\PYG{p}{.}\PYG{n}{Value}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{ap\PYGZus{}start}\PYG{+w}{                                    }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{Pathap\PYGZus{}start}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{pr\PYGZus{}ButtonTerminaSelected}\PYG{+w}{                    }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{Pathpr\PYGZus{}ButtonTerminaSelected}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{ResetProduction}\PYG{+w}{                             }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathResetProduction}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{ProduzioneInCorso}\PYG{+w}{                           }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathProduzioneInCorso}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{DB91\PYGZus{}CambioProduzione}\PYG{+w}{                       }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathDB91\PYGZus{}CambioProduzione}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{n}{DB91\PYGZus{}TerminaProduzione}\PYG{+w}{                      }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Project}\PYG{p}{.}\PYG{n}{Current}\PYG{p}{.}\PYG{n}{GetVariable}\PYG{p}{(}\PYG{n}{VariablePaths}\PYG{p}{.}\PYG{n}{PathDB91\PYGZus{}TerminaProduzione}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}\PYG{+w}{ }\PYG{c+c1}{// altre variabili plc}
+\end{Verbatim}
