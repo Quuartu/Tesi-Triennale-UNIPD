@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  20 JAN 2025 19:06
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  20 JAN 2025 19:23
  system commands enabled.
  file:line:error style messages enabled.
-**/Users/davidequartucci/Documents/GitHub/Quartucci_Davide/main
-(/Users/davidequartucci/Documents/GitHub/Quartucci_Davide/main.tex
+**/Users/davidequartucci/Documents/GitHub/Tesi-Triennale-UNIPD/main
+(/Users/davidequartucci/Documents/GitHub/Tesi-Triennale-UNIPD/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
@@ -1453,7 +1453,7 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 1:7,2:7464,3:500,4:976,5:556,6:132,7:8199,8:214,9:1954,10:142,11:1277
  55762 multiletter control sequences out of 65536+600000
  78 fonts using 19417935 bytes
- 79i,11n,89p,2581b,3411s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,89p,2585b,3411s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 Output written on main.pdf (62 pages, 6527372 bytes).
 
