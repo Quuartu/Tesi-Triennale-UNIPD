@@ -24,7 +24,7 @@ Per quanto riguarda il mio progetto, dato l'obiettivo di creare un sistema che p
 \end{enumerate}
 
 \section{Strutturazione HMI (Human Machine Interface)}
-Per la realizzazione dell'HMI è stato utilizzato FT Optix™, attraverso le numerose funzionalità che mette a disposizione. Per prima cosa l'interfaccia è stata organizzata all'interno di una finestra principale denominata \textit{MainWindow}\textsuperscript{\cite{rockwelloptixmainwindow}} (Figura \ref{fig:HMI00.png}), a sua volta suddivisa in 3 sotto-pannelli:
+Per la realizzazione dell'HMI, l'azienda mi ha mostrato altri prodotti fornendomi le basi per comprendere il funzionamento delle interfacce. Dopo aver ricevuto piena autonomia decisionale da parte dell'azienda, ho sviluppato un approccio originale, scegliendo di procedere nel seguente modo. All'interno di FT Optix™, per prima cosa l'interfaccia è stata organizzata in una finestra principale denominata \textit{MainWindow}\textsuperscript{\cite{rockwelloptixmainwindow}} (Figura \ref{fig:HMI00.png}), a sua volta suddivisa in 3 sotto-pannelli:
 \begin{itemize}
     \item Pannello di stato
     \item Pannello di funzione
@@ -60,7 +60,7 @@ Considerando a maggior ragione che lo SCADA sarà utilizzato su dispositivi dota
 
 \section{Gestione Database per la produzione}
 
-Per quanto riguarda il database sono state adottate diverse metodologie per la gestione dati. La prima esigenza è creare un ricettario che possa mantenere una serie di record con attributi ben specifici, e che permetta l'integrazione e la comunicazione verso la scheda di produzione. La soluzione ideale è stata quella di suddividere il database in 2 tabelle: una completamente dedicata alla parte di \textit{Anagrafica articoli} presenti in macchina, e l'altra che riguardasse la \textit{Produzione}, in cui vengono registrati gli ordini. Questa rappresenta solo la prima fase di progettazione, poiché nello SCADA è necessario anche avere accesso ad altri dati, tra cui: lo \textit{Storico Produzioni}, che archivia tutte le produzioni completate, sia con esito positivo che negativo; tutte le variabili che potrebbero influire sull'integrità dello stato di un ordine (ad es: l'extra produzione); e tutti gli interventi effettuati tramite input all'HMI, come l'importazione e l'esportazione delle ricette. Infine, è prevista anche l'integrazione tra SSMS e lo SCADA.
+Per quanto riguarda il database ho deciso di adottare diverse metodologie per la gestione dati. La prima esigenza dell'azienda è stata creare un ricettario per mantenere una serie di record con attributi ben specifici, e che permettesse l'integrazione e la comunicazione verso la scheda di produzione. La mia proposta di soluzione ideale è stata quella di suddividere il database in due tabelle: una completamente dedicata alla parte di \textit{Anagrafica articoli} presenti in macchina, e l'altra che riguardasse la \textit{Produzione}, in cui vengono registrati gli ordini. Questa rappresenta solo la prima fase di progettazione, poiché nello SCADA è necessario anche avere accesso ad altri dati, tra cui: lo \textit{Storico Produzioni}, che archivia tutte le produzioni completate, sia con esito positivo che negativo; tutte le variabili che potrebbero influire sull'integrità dello stato di un ordine (ad es: l'extra produzione); e tutti gli interventi effettuati tramite input all'HMI, come l'importazione e l'esportazione delle ricette. Infine, ho deciso di integrare all'HMI non solo il database locale creato da me, ma anche il SSMS fornito dall'azienda, per garantire maggiore flessibilità al sistema.
 
 \subsection{Anagrafica Articoli} 
 Questa sezione si occupa della gestione dell'inserimento di nuovi articoli da produrre nell'impianto. La progettazione ha richiesto due tipi di interventi: il primo ha riguardato la gestione del front-end dell'anagrafica; il secondo ha coinvolto la parte di back-end, con particolare attenzione a bottoni e gestione database. 
@@ -82,18 +82,18 @@ Per quanto riguarda la parte di back-end, il primo passo consiste nel configurar
     \item Aprire il file creato, sotto il nome di \verb|filename.sqlite| tramite un software come DB4S, presente all'interno della cartella ApplicationFiles del programma, per impostare eventuali vincoli del database. Questo ultimo passaggio è facoltativo e può essere omesso qualora non siano richiesti vincoli specifici per i dati da raccogliere.
 \end{enumerate} 
 
-Prima di introdurre la sezione degli script in C\#, è importante chiarire due scelte di stile adottate durante la progettazione del seguente database. Nel nostro caso ogni articolo deve essere caratterizzato da attributi ben definiti, che devono essere sempre presenti, indipendentemente dalla macchina su cui lo SCADA dovrà essere installato. In particolare:
+Prima di introdurre la sezione degli script in C\#, è importante chiarire due scelte di stile adottate da me durante la progettazione del seguente database. Nel nostro caso ogni articolo deve essere caratterizzato da attributi ben definiti, che devono essere sempre presenti, indipendentemente dalla macchina su cui lo SCADA dovrà essere installato. In particolare:
 
 \begin{itemize}
     \item \textbf{\textit{ID}}: un identificatore universale per il database, configurato come un intero, chiave primaria e auto-incrementale (\verb|INTEGER PRIMARY KEY AUTOINCREMENT|). Questo attributo permette ad ogni articolo di avere un identificativo distinto, senza mai ripetersi, nemmeno in caso di eliminazione o modifica di un prodotto. Questa scelta viene fatta per motivi di sicurezza, prevenendo eventuali conflitti di tuple in situazioni di sincronizzazione non corretta. 
-    \item \textbf{\textit{Product\_ID}}: un identificatore specifico per il prodotto con vincoli meno restrittivi rispetto al primo. Questo campo non deve essere forzatamente un intero, bensì può essere anche un codice alfa-numerico, a discrezione del cliente. Come unici vincoli aggiunti, per non incorrere in errori di inserimento, ci sono l'unicità e l'obbligo di non essere nullo. 
+    \item \textbf{\textit{Product\_ID}}: un identificatore specifico per il prodotto con vincoli meno restrittivi rispetto al primo. Questo campo non deve essere forzatamente un intero, bensì può essere anche un codice alfa-numerico, a discrezione del cliente. Come unici vincoli aggiunti, per non incorrere in errori di inserimento, ci sono l'unicità e l'obbligo di non essere nullo.
     \item \textbf{\textit{Robot\_Program}}: indica il programma che il robot dovrà utilizzare. Di norma, questi programmi sono identificati da numeri. Anche in questo caso, deve essere specificato il vincolo di obbligatorietà: non nullo, garantendo l'inserimento di un valore.
 \end{itemize}
 Partendo da questa base, è possibile inserire a piacimento ulteriori attributi in base alla necessità del cliente oppure dell'impianto su cui si sta lavorando, ripetendo i passaggi descritti precedentemente. 
-L'altra considerazione da fare riguarda l'uso dei \textit{RecipeSchema} in FT Optix™, per cui esistono alcuni vincoli: ad esempio, l'obbligo di anteporre il carattere \verb|/| a tutti gli attributi creati sia nel database sia in FT Optix™. Inoltre, FT Optix™ supporta nativamente, attraverso le API, solo operazioni di base per le ricette, quali: INSERT, UPDATE, DELETE e SELECT\textsuperscript{\cite{rockwelloptixsqlquery}}. Sebbene inizialmente questo possa sembrare un vantaggio, dato che permette un accesso semplificato tramite i tool integrati, in alcuni casi può rappresentare una limitazione se si desidera interagire attraverso funzioni più complesse con il database. Per questo motivo, FT Optix™ fornisce la possibilità di creare script in C\#, dando piena flessibilità e controllo diretto sul database al programmatore. 
+L'altra considerazione da fare riguarda l'uso dei \textit{RecipeSchema} in FT Optix™, per cui esistono alcuni vincoli dati dal software: ad esempio, l'obbligo di anteporre il carattere \verb|/| a tutti gli attributi creati sia nel database locale sia in interfaccia. Inoltre, FT Optix™ supporta nativamente, attraverso le API, solo operazioni di base per le ricette, quali: INSERT, UPDATE, DELETE e SELECT\textsuperscript{\cite{rockwelloptixsqlquery}}. Sebbene inizialmente questo possa sembrare un vantaggio, dato che permette un accesso semplificato tramite i tool integrati, in alcuni casi può rappresentare una limitazione se si desidera interagire attraverso funzioni più complesse con il database. Per questo motivo, FT Optix™ fornisce la possibilità di creare in prima persona script in C\#, dando piena flessibilità e controllo diretto sul database al programmatore. Questa scelta si è dimostrata vincente, perchè mi ha permesso di creare script unici per la successiva gestione dei dati. 
 
 
-Per quanto riguarda la parte di back-end, iniziamo con l'inserimento degli articoli nel database. Utilizzando i \textit{RecipeSchema}\textsuperscript{\cite{factorytalk_recipes}}, FT Optix™ mette a disposizione un oggetto \textit{RunTimeNetLogic}\textsuperscript{\cite{factorytalk_netlogic}} di tipo \textit{RecipeController}, che include già una serie di funzioni di base. Nel nostro caso, è necessario implementare all'interno del file \verb|RecipeController.cs| uno script che permetta l'inserimento di un prodotto in Anagrafica correttamente. In Visual Studio, creiamo quindi una funzione che verrà richiamata dal tasto SALVA presente nell'interfaccia. Per prima cosa, scriviamo il comando \verb|[ExportMethod]|(riga 2) che consente di rendere accessibile la funzione a FT Optix™. Successivamente, definiamo la funzione specificando gli attributi in input che ci interessa salvare. All'interno del codice, viene richiamato il database tramite \verb|myStore| e la tabella di interesse \verb|myTable| (rispettivamente righe 8-9). Da qui possiamo utilizzare la funzione \verb|.Insert| di FT Optix™, con i valori precedentemente richiamati, per popolare il database (riga 18).
+Per quanto riguarda invece la parte di back-end, iniziamo con l'inserimento degli articoli nel database. Utilizzando i \textit{RecipeSchema}\textsuperscript{\cite{factorytalk_recipes}}, FT Optix™ mette a disposizione un oggetto \textit{RunTimeNetLogic}\textsuperscript{\cite{factorytalk_netlogic}} di tipo \textit{RecipeController}, che include già una serie di funzioni di base. Nel nostro caso, è necessario implementare all'interno del file \verb|RecipeController.cs| uno script che permetta l'inserimento di un prodotto in Anagrafica correttamente. In Visual Studio, creiamo quindi una funzione che verrà richiamata dal tasto SALVA presente nell'interfaccia. Per prima cosa, scriviamo il comando \verb|[ExportMethod]|(riga 2) che consente di rendere accessibile la funzione direttamente in FT Optix™ (questa pratica verrà ripetuta anche per futuri script). Successivamente, definiamo la funzione specificando gli attributi in input che ci interessa salvare. All'interno del codice, viene richiamato il database locale (oppure SSMS) tramite \verb|myStore| e la tabella di interesse \verb|myTable| (rispettivamente righe 8-9). Da qui possiamo utilizzare la funzione \verb|.Insert| di FT Optix™, con i valori precedentemente richiamati, per popolare il database (riga 18).
 \begin{csharp}
 ...
     [ExportMethod]
@@ -126,7 +126,7 @@ Per quanto riguarda la parte di back-end, iniziamo con l'inserimento degli artic
     }
 ...
 \end{csharp}
-Due aspetti importanti meritano attenzione in questa fase. In primo luogo, si osserva la presenza del carattere \verb|/| negli attributi, come richiesto dalle specifiche di FT Optix™. In secondo luogo, vi è un attributo \verb|Name|, il quale rappresenta un vincolo essenziale nella costruzione delle ricette in FT Optix™; nel nostro caso, assegniamo a tale campo un valore a scelta tra quelli disponibili. Inoltre, la funzione è stata inserita in un blocco \verb|try-catch| per garantire maggiore controllo su eventuali errori di inserimento in FT Optix™.
+Due aspetti importanti meritano attenzione in questa fase. In primo luogo, si osserva la presenza del carattere \verb|/| negli attributi, come richiesto dalle specifiche di FT Optix™ per le ricette. In secondo luogo, vi è un attributo \verb|Name|, il quale rappresenta un vincolo essenziale nella costruzione delle ricette in FT Optix™; nel nostro caso, assegniamo a tale campo un valore a scelta tra quelli disponibili. Inoltre, la funzione è stata inserita in un blocco \verb|try-catch| per garantire maggiore controllo su eventuali errori di inserimento in FT Optix™ (altra pratica ampliata anche ad altri script, come regola di buona programmazione).
 Ora passiamo ad un'ulteriore richiesta che riguarda le importazioni di articoli esterni. In questo caso, è stato necessario avvalerci di un ulteriore oggetto, \textit{RunTimeNetLogic}, direttamente associato alla tabella, al fine di implementare una funzione capace di controllare un file esterno definito come \verb|dati.txt|. Di seguito è riportato il codice:
 \begin{csharp}
 ...
@@ -181,29 +181,9 @@ Ora passiamo ad un'ulteriore richiesta che riguarda le importazioni di articoli 
                         values[0, 3] = Product_ID;
                         myTable.Insert(columns, values);
                     }
-                    catch (FormatException ex)
-                    {
-                        Console.WriteLine($"Errore: formato dei dati non valido nella riga '{riga}'.");
-                    }
-                }
-    
-                // Elimina il file dopo la lettura
-                File.Delete(percorsoFile);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Si è verificato un errore durante la lettura del file: {ex.Message}");
-            }
-        }
-        else
-        {
-            // Se il file non esiste, ignora semplicemente e continua
-            Console.WriteLine($"File non trovato: {percorsoFile}. Verrà controllato di nuovo.");
-        }
-    }    
-...
+                    ... // Gestione eccezioni ed eliminazione file dopo la lettura
 \end{csharp}
-Nel codice appena illustrato viene richiamata la seguente funzione: \verb|dati.txt| situato in un percorso preimpostato (righe 6-7). La scelta di definire un percorso ben specifico è stata fatta per evitare problemi imprevisti durante l'inserimento dei dati. La funzione prosegue analizzando le righe del file, secondo le specifiche \textit{Product\_ID; Descrizione; Robot\_Program} (righe da 17 a 37). A partire da riga 42, il codice procede con l'inserimento all'interno del database di tutti i dati del file, e infine, a riga 60 lo elimina come richiesto. Ovviamente, questa funzione deve essere richiamata ciclicamente per garantire un aggiornamento continuo del database, facilitando così, ad esempio, la trasmissione di nuovi articoli dagli uffici di produzione direttamente alla macchina. Per automatizzare l'intero processo, nel metodo \verb|Start| (creato nativamente da FT Optix™) è stato configurato un timer che ogni 10 secondi ripete l'operazione di lettura ed importazione degli articoli nell'anagrafica, assicurando aggiornamento costante dei dati:
+Nel codice appena illustrato viene richiamata la seguente funzione: \verb|dati.txt| situato in un percorso preimpostato (righe 6-7). La scelta di definire un percorso ben specifico è stata fatta per evitare problemi imprevisti durante l'inserimento dei dati. La funzione prosegue analizzando le righe del file, secondo le specifiche \textit{Product\_ID; Descrizione; Robot\_Program} (righe da 17 a 37). A partire da riga 42, il codice procede con l'inserimento all'interno del database di tutti i dati del file, e infine, lo elimina come richiesto. Ovviamente, questa funzione deve essere richiamata ciclicamente per garantire un aggiornamento continuo del database, facilitando così, ad esempio, la trasmissione di nuovi articoli dagli uffici di produzione direttamente alla macchina. Per automatizzare l'intero processo, nel metodo \verb|Start| (creato nativamente da FT Optix™) ho deciso di configurare un timer che ogni 10 secondi ripete l'operazione di lettura ed importazione degli articoli nell'anagrafica, assicurando aggiornamento costante e sincronizzazione dei dati:
 \begin{csharp}
 ...
     private static Timer timer; // Timer per eseguire l'operazione ogni 10 secondi
@@ -220,14 +200,14 @@ Nel codice appena illustrato viene richiamata la seguente funzione: \verb|dati.t
     }
 ...
 \end{csharp}
-Per tutte le altre funzionalità, come l'eliminazione di articoli, ricerche ed importazioni/esportazioni da HMI, sono state sfruttate funzionalità già presenti nel programma. Il lavoro si è concentrato sulla configurazione e personalizzazione di questi strumenti affinché si integrassero correttamente con il sistema.
+Per tutte le altre funzionalità, come l'eliminazione di articoli, ricerche ed importazioni/esportazioni da HMI, sono state sfruttate funzionalità di base già presenti nel programma. Il lavoro si è concentrato sull'ampliamento e personalizzazione di questi strumenti affinché si integrassero correttamente con il sistema.
 
 \subsection{Ordini di Produzione}
 
-Questa sezione si focalizza sulla fase di produzione degli articoli, con focus sull'inserimento, l'avvio e la gestione di una nuova produzione. La progettazione ha seguito il medesimo approccio adottato per la sezione dell'anagrafica. Per quanto riguarda l'interfaccia, si è scelto di dividere la creazione di un nuovo ordine di produzione dalla gestione della produzione stessa, poiché nel monitoraggio è necessario tenere in primo piano molti più attributi rispetto alla sezione di anagrafica. Dal punto di vista progettuale, troviamo ancora un oggetto di tipo \textit{DataGridView}, che anche in questo caso serve per tenere sotto controllo lo stato degli ordini. Infatti, è configurato in modo che cambi colore in base allo stato dell'ordine: verde per gli articoli che sono attualmente in produzione, giallo per quelli in attesa e rosso per eventuali interruzioni impreviste. Anche in questa sezione è implementato un sistema di filtraggio, mentre nella parte inferiore della schermata troviamo un pannello che tiene sotto controllo lo stato/passo in cui si trova la macchina (il suo funzionamento verrà illustrato nella sezione \ref{sec:Sviluppo back-end e integrazione con il PLC}). Sempre nella parte inferiore della schermata, inoltre, sono presenti i pulsanti che permettono la gestione degli ordini di macchina. Prima di procedere alla fase implementativa, è stato progettato anche un popup per \textit{Nuova Produzione} (Figura:\ref{fig:Produzione.png}), che permette di inserire gli ordini in database. Questo popup è una finestra che richiede le specifiche di produzione, ovvero:
+Questa sezione si focalizza sulla fase di produzione degli articoli, con focus sull'inserimento, l'avvio e la gestione di una nuova produzione. La progettazione ha seguito il medesimo approccio adottato per la sezione dell'anagrafica. Per quanto riguarda l'interfaccia, ho preferito dividere la creazione di un nuovo ordine di produzione dalla gestione della produzione stessa, poiché nel monitoraggio è necessario tenere in primo piano molti più attributi rispetto alla sezione di anagrafica. Dal punto di vista progettuale, troviamo ancora un oggetto di tipo \textit{DataGridView}, che anche in questo caso serve per tenere sotto controllo lo stato degli ordini. Infatti, è stato anche configurato in modo che cambi colore in base allo stato dell'ordine: verde per gli articoli che sono attualmente in produzione, giallo per quelli in attesa e rosso per eventuali interruzioni impreviste. Anche in questa sezione è stato implementato un sistema di filtraggio, mentre nella parte inferiore della schermata troviamo un pannello che tiene sotto controllo lo stato/passo in cui si trova la macchina (il suo funzionamento verrà illustrato nella sezione \ref{sec:Sviluppo back-end e integrazione con il PLC}). Sempre nella parte inferiore della schermata, inoltre, sono presenti i pulsanti che permettono la gestione degli ordini di macchina. Prima di procedere alla fase implementativa, è stato progettato anche un popup per \textit{Nuova Produzione} (Figura:\ref{fig:Produzione.png}), che permette di inserire gli ordini in database. Questo popup è una finestra che richiede le specifiche di produzione, ovvero:
 \begin{itemize}
     \item \textit{\textbf{Ordine di Produzione}}: identificativo dell'ordine, configurato come campo testuale.
-    \item \textit{\textbf{Nome Articolo}}: Mostra a schermo un menù a tendina che consente di selezionare il \textit{Product\_ID} dell'articolo già presente in database, ereditando tutte le caratteristiche definite nella sezione Anagrafica.
+    \item \textit{\textbf{Nome Articolo}}: mostra a schermo un menù a tendina che consente di selezionare il \textit{Product\_ID} dell'articolo già presente in database, ereditando tutte le caratteristiche definite nella sezione Anagrafica.
     \item \textit{\textbf{Quantità\_Richiesta}}: è la quantità dell'ordine da produrre inizialmente.
 \end{itemize}
 
@@ -238,7 +218,7 @@ Questa sezione si focalizza sulla fase di produzione degli articoli, con focus s
     \label{fig:Produzione.png}
 \end{figure}
 
-Fatto questo, ulteriori attributi vengono impostati durante l'inserimento dell'ordine. Infatti, dopo aver specificato i dati precedenti e premuto il tasto "inserisci", viene richiamata una funzione all'interno di \verb|RecipeController.cs|, sviluppata seguendo le stesse linee guida di quella già analizzata in Anagrafica. In questo caso, poiché la produzione necessita di parametri aggiuntivi, come ad esempio: \textit{Date\_Insert, Status, Extra\_Production, ...}, questi attributi vengono inizialmente impostati su valori predefiniti. Un attributo che necessita di analisi è la Data di Inserimento (gestita a riga 16). Qui viene utilizzato \verb|DateTime.Now| per ottenere il momento esatto del salvataggio, con successivo parsing in \verb|.ToString|, come richiesto per l'inserimento dei dati nel database.
+Fatto questo, ulteriori attributi vengono impostati durante l'inserimento dell'ordine. Infatti, dopo aver specificato i dati precedenti e premuto il tasto "inserisci", viene richiamata una funzione all'interno di \verb|RecipeController.cs|, sviluppata seguendo le stesse linee guida di quella già analizzata in Anagrafica. In questo caso, poiché la produzione necessita di parametri aggiuntivi, come ad esempio: \textit{Date\_Insert, Status, Extra\_Production, ...}, questi attributi vengono inizialmente impostati su valori predefiniti. Un attributo che necessita di analisi è la Data di Inserimento (gestita a riga 16). Qui viene utilizzato \verb|DateTime.Now| per ottenere il momento esatto del salvataggio, con successivo parsing in \verb|.ToString|, come richiesto per il corretto inserimento dei dati nel database.
 
 \begin{csharp}
 ...
@@ -488,11 +468,11 @@ Questo script automatizza la configurazione del collegamento ad un database SQL 
 
 \section{Sviluppo back-end e integrazione con il PLC}\label{sec:Sviluppo back-end e integrazione con il PLC}
 
-In questa sezione analizziamo gli aspetti necessari per poter unire tutto ciò che è stato analizzato finora. Dal lato back-end, dobbiamo garantire che lo SCADA comunichi correttamente con uno o più PLC, a seconda dell'impianto, ottenendo pieno controllo del sistema. Questo approccio permette di gestire qualsiasi caso d'uso o variabile che potrebbe comportarsi in modo imprevisto durante l'operatività della macchina. Due elementi chiave sono: la possibilità che lo SCADA determini esattamente il passo operativo del PLC in ogni momento, e la certezza che ci sia una comunicazione bidirezionale tra lo SCADA e il PLC. Per arrivare a ciò, la scelta è stata di creare una macchina a stati, con un ciclo che inizia nel momento in cui la macchina viene avviata e che avanza esclusivamente in risposta ai segnali del PLC. Questa macchina rappresenta un'astrazione del comportamento del PLC, offrendo pieno controllo in qualsiasi momento. Il lavoro si suddividerà in più fasi:
+In questa sezione analizziamo gli aspetti necessari per poter unire tutto ciò che è stato progettato finora. Lato back-end, dobbiamo garantire che lo SCADA comunichi correttamente con uno o più PLC, a seconda dell'impianto, ottenendo pieno controllo del sistema. Questo approccio permette di gestire qualsiasi caso d'uso o variabile che potrebbe comportarsi in modo imprevisto durante l'operatività della macchina. Ho deciso di focalizzare l'attenzione su due elementi chiave: la possibilità che lo SCADA determini esattamente il passo operativo del PLC in ogni momento, e la certezza che ci sia una comunicazione bidirezionale tra lo SCADA e il PLC. Per arrivare a ciò, è stata creata una macchina a stati, con un ciclo che inizia nel momento in cui la macchina viene avviata e che avanza esclusivamente in risposta ai segnali del PLC. Questa macchina rappresenta un'astrazione del comportamento del PLC, offrendo pieno controllo in qualsiasi momento. Il lavoro è stato suddiviso in più fasi:
 \begin{enumerate}
     \item Inizializzazione di tutti i tag del PLC e dello SCADA.
-    \item Sviluppo di un programma in grado di gestire tutti i casi d'uso e gli errori dell'impianto
-    \item Verifica che tutto sia coerente tra FT Optix™ e il Database
+    \item Sviluppo di un programma in grado di gestire tutti i casi d'uso e gli errori dell'impianto.
+    \item Verifica che tutto sia coerente tra FT Optix™ e il Database.
 \end{enumerate}
 
 \subsection{Indicizzazione tag variabili}
@@ -1042,9 +1022,9 @@ Se il processo produttivo è avvenuto correttamente, ci troveremo al \verb|case 
 I passi \verb|case 180, 181, 190 e 191| servono per gestire i vari KO in cui ci siamo imbattuti durante tutto il processo e che sono stati rispettivamente richiamati.
 \begin{itemize}
     \item \verb|case 180 = errore caricamento ricetta KO da PLC|: segnala un qualsiasi errore nel caricamento della ricetta da parte del PLC, aggiornando lo stato nel database e resettando le variabili sia del PLC, sia dell'HMI, per poi passare al passo successivo.
-    \item \verb|case 181 = Attesa rimozione segnali KO da PLC|: il sistema è in attesa che i segnali di KO vengano rimossi dal PLC, passando poi al passo 199
+    \item \verb|case 181 = Attesa rimozione segnali KO da PLC|: il sistema è in attesa che i segnali di KO vengano rimossi dal PLC, passando poi al passo 199.
     \item \verb|case 190 = annullamento caricamento da operatore|: gestisce l'annullamento manuale del caricamento della ricetta da parte dell'operatore, aggiornando stato, pulsanti e resettando variabili. Di seguito viene riportata una parte del codice.
-    \item \verb|case 191 = Attesa fine produzione da PLC|: il sistema attende una conferma di terminazione di produzione da parte del PLC, passando poi al passo finale
+    \item \verb|case 191 = Attesa fine produzione da PLC|: il sistema attende una conferma di terminazione di produzione da parte del PLC, passando poi al passo finale.
 \end{itemize}
 \begin{csharp}
 ...

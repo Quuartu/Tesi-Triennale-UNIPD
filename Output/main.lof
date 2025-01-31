@@ -5,7 +5,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Esempio sistema SCADA con componenti principali. Fonte: \blx@tocontentsinit {0}\cite {exonsys_scada}}}{7}{figure.caption.6}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Gestione impianto tramite SCADA}}{8}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Esempi software famosi per progettazione HMI}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Esempi software per progettazione HMI}}{8}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Illustrazione dashboard di progetto}}{10}{figure.caption.9}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Suddivisione interfaccia HMI}}{13}{figure.caption.10}%
@@ -13,10 +13,10 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Illustrazioni sezione \textit {Articoli}}}{16}{figure.caption.12}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Illustrazioni sezione \textit {Produzione} e sottosezione \textit {Nuova Produzione}}}{21}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Esempio richiesta di \textit {Extra Produzione}}}{23}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Illustrazione sezione \textit {Storico Produzione}}}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Illustrazione sezione \textit {Storico Produzione}}}{24}{figure.caption.15}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Illustrazione pannelli presenti in FT Optix™}}{26}{figure.caption.16}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Illustrazione sezione \textit {Allarmi}}}{27}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces esempio di salvataggio percorso variabile di modello}}{30}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces esempio di salvataggio percorso variabile di modello}}{29}{figure.caption.18}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Illustrazione Tag importati}}{44}{figure.caption.19}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Illustrazioni Gestione FTP Robot ed FTP Pressa}}{46}{figure.caption.20}%

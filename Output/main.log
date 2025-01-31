@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  20 JAN 2025 19:23
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  31 JAN 2025 18:01
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/davidequartucci/Documents/GitHub/Tesi-Triennale-UNIPD/main
@@ -1256,7 +1256,7 @@ File: Immagini/HMI01.png Graphic file (type png)
 Package luatex.def Info: Immagini/HMI01.png  used on input line 52.
 (luatex.def)             Requested size: 455.24411pt x 259.42918pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5064) has occurred while \output is active []
 
  [14<./Immagini/HMI01.png>] [15]
 <Immagini/AnagraficaArticoli.png, id=375, 1679.27374pt x 882.29625pt>
@@ -1271,130 +1271,123 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 4.
 )
 \openout3 = main.pyg
- [18] (./_minted-main/CAE6A3F68DD13B84FBCDEF2A7FBCD48250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+ [18] (./_minted-main/0459AF6E7C3BD7D23A194B496D1AC37D50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1902) has occurred while \output is active []
 
  [19] (./_minted-main/CD0FA203AFEC9848EFD9A58B73070B8450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [20]
-<Immagini/Produzione.png, id=417, 1509.64pt x 379.4175pt>
+<Immagini/Produzione.png, id=419, 1509.64pt x 379.4175pt>
 File: Immagini/Produzione.png Graphic file (type png)
 <use Immagini/Produzione.png>
-Package luatex.def Info: Immagini/Produzione.png  used on input line 236.
+Package luatex.def Info: Immagini/Produzione.png  used on input line 216.
 (luatex.def)             Requested size: 455.24411pt x 114.41664pt.
 
 \openout3 = main.pyg
  (./_minted-main/7DDBFB2C813D40897396A06E52C9A49650EB15C0A2CA8D5A1F16281FC253576A.pygtex) [21<./Immagini/Produzione.png>]
-<Immagini/ExtraProduzione.png, id=428, 1696.3375pt x 946.53625pt>
+<Immagini/ExtraProduzione.png, id=429, 1696.3375pt x 946.53625pt>
 File: Immagini/ExtraProduzione.png Graphic file (type png)
 <use Immagini/ExtraProduzione.png>
-Package luatex.def Info: Immagini/ExtraProduzione.png  used on input line 290.
+Package luatex.def Info: Immagini/ExtraProduzione.png  used on input line 270.
 (luatex.def)             Requested size: 455.24411pt x 254.02281pt.
 
 \openout3 = main.pyg
  (./_minted-main/7565ABD820C25F9043CD9E931863024450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [22]
 \openout3 = main.pyg
- (./_minted-main/82C225EFF97E88D2520EABC6AA51F20850EB15C0A2CA8D5A1F16281FC253576A.pygtex) [23<./Immagini/ExtraProduzione.png>]
-<Immagini/StoricoProduzione.png, id=442, 1922.18124pt x 1081.03876pt>
+ (./_minted-main/82C225EFF97E88D2520EABC6AA51F20850EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+Underfull \vbox (badness 1895) detected at line 325
+ []
+
+[23<./Immagini/ExtraProduzione.png>]
+<Immagini/StoricoProduzione.png, id=443, 1922.18124pt x 1081.03876pt>
 File: Immagini/StoricoProduzione.png Graphic file (type png)
 <use Immagini/StoricoProduzione.png>
-Package luatex.def Info: Immagini/StoricoProduzione.png  used on input line 352.
+Package luatex.def Info: Immagini/StoricoProduzione.png  used on input line 332.
 (luatex.def)             Requested size: 455.24411pt x 256.02357pt.
 
 \openout3 = main.pyg
- (./_minted-main/610EDE15263CA8D74830BF4778B83CCE50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [24]
+ [24<./Immagini/StoricoProduzione.png>] (./_minted-main/610EDE15263CA8D74830BF4778B83CCE50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 <Immagini/CartellaAllarmi.png, id=451, 341.275pt x 380.42125pt>
 File: Immagini/CartellaAllarmi.png Graphic file (type png)
 <use Immagini/CartellaAllarmi.png>
-Package luatex.def Info: Immagini/CartellaAllarmi.png  used on input line 402.
+Package luatex.def Info: Immagini/CartellaAllarmi.png  used on input line 382.
 (luatex.def)             Requested size: 159.33821pt x 177.61963pt.
 <Immagini/AllarmiInfografica.png, id=452, 598.235pt x 368.37625pt>
 File: Immagini/AllarmiInfografica.png Graphic file (type png)
 <use Immagini/AllarmiInfografica.png>
-Package luatex.def Info: Immagini/AllarmiInfografica.png  used on input line 410.
+Package luatex.def Info: Immagini/AllarmiInfografica.png  used on input line 390.
 (luatex.def)             Requested size: 250.38564pt x 154.18297pt.
- [25<./Immagini/StoricoProduzione.png>]
-<Immagini/Allarmi.png, id=461, 1923.185pt x 1077.02374pt>
+<Immagini/Allarmi.png, id=454, 1923.185pt x 1077.02374pt>
 File: Immagini/Allarmi.png Graphic file (type png)
 <use Immagini/Allarmi.png>
-Package luatex.def Info: Immagini/Allarmi.png  used on input line 421.
+Package luatex.def Info: Immagini/Allarmi.png  used on input line 401.
 (luatex.def)             Requested size: 455.24411pt x 254.94122pt.
-
+ [25]
 \openout3 = main.pyg
  [26<./Immagini/CartellaAllarmi.png><./Immagini/AllarmiInfografica.png>] (./_minted-main/5A3689001844182AB5F2EB22DB88AE5750EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
- (./_minted-main/E820F2526486C4BAF8E9E7F431016B6B50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [27<./Immagini/Allarmi.png>]
+ (./_minted-main/E820F2526486C4BAF8E9E7F431016B6B50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
- (./_minted-main/B119CF04158C49A50630651A35ABD51750EB15C0A2CA8D5A1F16281FC253576A.pygtex) [28]
-<Immagini/tag.png, id=486, 380.42125pt x 840.13875pt>
+ [27<./Immagini/Allarmi.png>] (./_minted-main/B119CF04158C49A50630651A35ABD51750EB15C0A2CA8D5A1F16281FC253576A.pygtex) [28]
+<Immagini/tag.png, id=489, 380.42125pt x 840.13875pt>
 File: Immagini/tag.png Graphic file (type png)
 <use Immagini/tag.png>
-Package luatex.def Info: Immagini/tag.png  used on input line 504.
+Package luatex.def Info: Immagini/tag.png  used on input line 484.
 (luatex.def)             Requested size: 136.57462pt x 301.61646pt.
 
 \openout3 = main.pyg
- (./_minted-main/E60E373A88DDBC469085767DF67920A250EB15C0A2CA8D5A1F16281FC253576A.pygtex) [29]
-Underfull \vbox (badness 3449) has occurred while \output is active []
-
- [30<./Immagini/tag.png>]
+ (./_minted-main/E60E373A88DDBC469085767DF67920A250EB15C0A2CA8D5A1F16281FC253576A.pygtex) [29<./Immagini/tag.png>] [30]
 \openout3 = main.pyg
  (./_minted-main/B715C0DF6BBD1F920D861FA2944F93B950EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
- [31] (./_minted-main/3D68408608DD78DCBDF87F26497589F550EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-Underfull \hbox (badness 4699) in paragraph at lines 630--631
+ (./_minted-main/3D68408608DD78DCBDF87F26497589F550EB15C0A2CA8D5A1F16281FC253576A.pygtex) [31]
+Underfull \hbox (badness 4699) in paragraph at lines 610--611
 [][]\TU/lmtt/m/n/12 80 = "Attesa RESET segnali da PLC - ok/ko"\TU/TimesNewRoman(0)/m/sc/12 : ve-ri-fi-ca di si-cu-rez-za, at-te-sa
  []
 
 [32]
 \openout3 = main.pyg
- (./_minted-main/12477154095FBAC8098896D90A3A400450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [33]
+ (./_minted-main/12477154095FBAC8098896D90A3A400450EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
- (./_minted-main/5F7D9FDE48CEA28D6CD1FA41EE7882CD50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+ (./_minted-main/5F7D9FDE48CEA28D6CD1FA41EE7882CD50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [33]
 \openout3 = main.pyg
- (./_minted-main/7F9106BE09CCCDDF707AD2F83AD02E4250EB15C0A2CA8D5A1F16281FC253576A.pygtex) [34]
+ (./_minted-main/7F9106BE09CCCDDF707AD2F83AD02E4250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+Underfull \vbox (badness 1648) has occurred while \output is active []
+
+ [34]
 \openout3 = main.pyg
  (./_minted-main/FA7D25D79D1A330B19C45C8AB6619D8250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
- [35] (./_minted-main/BA8645640D2CBCBF0F31995FC0BA058C50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+ (./_minted-main/BA8645640D2CBCBF0F31995FC0BA058C50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [35]
 \openout3 = main.pyg
  (./_minted-main/D0F8CEBE3F28FC1D9925E09845A477A150EB15C0A2CA8D5A1F16281FC253576A.pygtex) [36]
 \openout3 = main.pyg
  (./_minted-main/A72ED2A60E734F251465E5D72AFEABB150EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
-
-Underfull \vbox (badness 1831) has occurred while \output is active []
-
- [37] (./_minted-main/3EA600B42F6E0E96C56F729E2C1DF2EC50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-Overfull \vbox (0.91315pt too high) detected at line 946
- []
-
-[38]
+ (./_minted-main/3EA600B42F6E0E96C56F729E2C1DF2EC50EB15C0A2CA8D5A1F16281FC253576A.pygtex) [37]
 \openout3 = main.pyg
- (./_minted-main/2CC6189B3B35E3C6B83A19647E78CD9350EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+ [38] (./_minted-main/2CC6189B3B35E3C6B83A19647E78CD9350EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
  [39] (./_minted-main/01EA20ED434F1955DF5504E16B02DF1250EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-Underfull \vbox (badness 2277) has occurred while \output is active []
-
- [40]
 \openout3 = main.pyg
- (./_minted-main/4713AA198AD8C2975E246A33490F011850EB15C0A2CA8D5A1F16281FC253576A.pygtex)
+ [40] (./_minted-main/4713AA198AD8C2975E246A33490F011850EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
  (./_minted-main/A9BA60BF248BC2DB3A731B5614BE32C950EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-Underfull \hbox (badness 2828) in paragraph at lines 1097--1099
+Underfull \hbox (badness 2828) in paragraph at lines 1077--1079
 \TU/TimesNewRoman(0)/m/sc/12 In que-sto ca-pi-to-lo ab-bia-mo ana-liz-za-to i pun-ti sa-lien-ti del main cy-cle. Per vi-sio-na-
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 1097--1099
+Underfull \hbox (badness 1824) in paragraph at lines 1077--1079
 \TU/TimesNewRoman(0)/m/sc/12 re il co-di-ce com-ple-to far ri-fe-ri-men-to al-la re-po-si-to-ry Gi-tHub, più pre-ci-sa-men-te al fi-le:
  []
 
-[41]) (./Capitoli/CasoStudio.tex [42]
-Capitolo 4.
-[43
+) (./Capitoli/CasoStudio.tex [41] [42
 
 ]
-<Immagini/ImportTag.png, id=571, 352.31625pt x 342.27875pt>
+Capitolo 4.
+[43]
+<Immagini/ImportTag.png, id=572, 352.31625pt x 342.27875pt>
 File: Immagini/ImportTag.png Graphic file (type png)
 <use Immagini/ImportTag.png>
 Package luatex.def Info: Immagini/ImportTag.png  used on input line 15.
@@ -1407,13 +1400,13 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <10> not available
 (Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input line 22.
 )
-<Immagini/FTP.png, id=581, 1509.64pt x 426.59375pt>
+<Immagini/FTP.png, id=582, 1509.64pt x 426.59375pt>
 File: Immagini/FTP.png Graphic file (type png)
 <use Immagini/FTP.png>
 Package luatex.def Info: Immagini/FTP.png  used on input line 72.
 (luatex.def)             Requested size: 455.24411pt x 128.64305pt.
  [45] [46<./Immagini/FTP.png>]
-<Immagini/PannelloASEM.jpg, id=595, 1932.21875pt x 1604.99625pt>
+<Immagini/PannelloASEM.jpg, id=596, 1932.21875pt x 1604.99625pt>
 File: Immagini/PannelloASEM.jpg Graphic file (type jpg)
 <use Immagini/PannelloASEM.jpg>
 Package luatex.def Info: Immagini/PannelloASEM.jpg  used on input line 92.
@@ -1447,17 +1440,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  34729 strings out of 476447
- 125004,1977958 words of node,token memory allocated
+ 125009,1977958 words of node,token memory allocated
  802 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 44 attribute, 68 glue_spec, 24 attribute_list, 1 write, 16 pdf_action nodes
-   avail lists: 1:7,2:7464,3:500,4:976,5:556,6:132,7:8199,8:214,9:1954,10:142,11:1277
+   avail lists: 1:5,2:8210,3:500,4:892,5:556,6:126,7:9018,8:214,9:1954,10:142,11:1301
  55762 multiletter control sequences out of 65536+600000
  78 fonts using 19417935 bytes
  79i,11n,89p,2585b,3411s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (62 pages, 6527372 bytes).
+Output written on main.pdf (62 pages, 6527073 bytes).
 
-PDF statistics: 738 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 739 PDF objects out of 1000 (max. 8388607)
  169 named destinations out of 1000 (max. 131072)
  264 words of extra memory for PDF output out of 10000 (max. 100000000)
 

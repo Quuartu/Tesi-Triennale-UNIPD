@@ -23,8 +23,8 @@
 \contentsline {subsection}{\numberline {3.3.3}Storici Produzione/Allarmi}{24}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Configurazione Database aziendale}{26}{subsection.3.3.4}%
 \contentsline {section}{\numberline {3.4}Sviluppo back-end e integrazione con il PLC}{28}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Indicizzazione tag variabili}{29}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Sviluppo Macchina a Stati}{31}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.1}Indicizzazione tag variabili}{28}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Sviluppo Macchina a Stati}{30}{subsection.3.4.2}%
 \contentsline {chapter}{\numberline {4}Caso Studio: Isole robotizzate di piegatura}{43}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Importazione Tag}{43}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Configurazione variabili}{44}{section.4.2}%
