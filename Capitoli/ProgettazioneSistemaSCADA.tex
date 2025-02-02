@@ -528,10 +528,10 @@ Questa classificazione rimane costante indipendentemente dall'impianto; ciò che
 
 \subsection{Sviluppo Macchina a Stati}
 
- Dal lato progettazione, è stato inserito un oggetto \textit{RunTimeNetLogic} associato alla \textit{MainWindow}. Per quanto concerne la programmazione, lo script associato è stato suddiviso in diverse parti. Inizialmente, vengono dichiarati alcuni script strettamente legati al database, che vengono richiamati all'interno della \verb|StateMachine|. Successivamente, all'interno della funzione \verb|Start| (riga 19), è stata definita una \verb|PeriodicTask| con i seguenti attributi: 
+ Lato progettazione, è stato inserito un oggetto \textit{RunTimeNetLogic} associato alla \textit{MainWindow}. Per quanto concerne la programmazione, lo script associato è stato suddiviso in diverse parti. Inizialmente, vengono dichiarati alcuni script strettamente legati al database, che vengono richiamati all'interno della \verb|StateMachine|. Successivamente, all'interno della funzione \verb|Start| (riga 19), è stata definita una \verb|PeriodicTask| con i seguenti attributi: 
  \begin{itemize}
-     \item \verb|Maincycle|: contiene la logica periodica del sistema
-     \item \verb|250ms|: indica la frequenza con cui la logica viene ripetuta periodicamente 
+     \item \verb|Maincycle|: contiene la logica periodica del sistema.
+     \item \verb|250ms|: indica la frequenza con cui la logica viene ripetuta periodicamente. 
      \item \verb|LogicObject|: contiene le risorse necessarie per l'esecuzione.
  \end{itemize}
 Grazie a questa configurazione, dopo aver avviato l'impianto, il maincycle viene eseguito ogni 250ms. Questa frequenza garantisce una sincronizzazione quasi istantanea tra HMI e PLC, riducendo al minimo gli errori.
@@ -784,7 +784,7 @@ Il \verb|case 21| gestisce l'attesa di lettura del popup da parte dell'operatore
 I passi \verb|case 50, 55, 60| verranno trattati nel Capitolo \ref{sec:CasoStudio}, essendo progettati secondo l'impianto su cui gira lo SCADA. Se tutto risulta corretto arriviamo al \verb|case 70| in cui siamo in attesa dell'esito da parte del PLC relativo al cambio produzione:
 \begin{enumerate}
     \item Il PLC da l'OK (da riga 8): allora vengono resettate le variabili precedenti di cambio produzione e caricamento ordine, per poi cambiare passo.
-    \item Il PLC mi manda un KO (da riga 21): allora l'HMI mostra a schermo l'errore e rimane in attesa di risposta da parte dell'operatore.
+    \item Il PLC manda un KO (da riga 21): allora l'HMI mostra a schermo l'errore e rimane in attesa di risposta da parte dell'operatore.
 \end{enumerate}
 \begin{csharp}
 ...
@@ -848,7 +848,7 @@ Il \verb|case 71| gestisce il reset della variabile del popup mostrato in errore
     break;
 ...
 \end{csharp}
-Il \verb|case 100| rappresenta il cuore del processo produttivo, in cui la macchina lavora sull'ordine e aggiorna continuamente i dati relativi alla produzione. Per prima cosa viene selezionato il database con annessi campi per l'aggiornamento dei dati durante la produzione. Successivamente vengono mandate continuamente richieste al PLC in cui viene controllato che i pezziDepositati, quindi i pezzi prodotti, siano uguali a quelli memorizzati dall'HMI. In caso di discrepanza, si aggiorna il database e si sincronizzano i valori in memoria (righe 10-14). Questo avviene finché non si raggiunge la quantità richiesta, sommata all'extra produzione (riga 18), che inizialmente sarà a 0. Di seguito se l'operatore preme il pulsante di fine produzione, resetta il flag e cambia stato a fine produzione (righe 21-24). Nel codice sottostante vengono illustrate anche alcune parti fondamentali delle funzioni ausiliarie di aggiornamento parametri richiamate precedentemente.
+Il \verb|case 100| rappresenta il cuore del processo produttivo, in cui la macchina lavora sull'ordine e aggiorna continuamente i dati relativi alla produzione. Per prima cosa viene selezionato il database con annessi campi per l'aggiornamento dei dati durante la produzione. Successivamente vengono mandate continuamente richieste al PLC in cui viene controllato che i \verb|pezziDepositati|, quindi i pezzi prodotti, siano uguali a quelli memorizzati dall'HMI. In caso di discrepanza, si aggiorna il database e si sincronizzano i valori in memoria (righe 10-14). Questo avviene finché non si raggiunge la quantità richiesta, sommata all'extra produzione (riga 18), che inizialmente sarà a 0. Di seguito se l'operatore preme il pulsante di fine produzione, resetta il flag e cambia stato a fine produzione (righe 21-24). Nel codice sottostante vengono illustrate anche alcune parti fondamentali delle funzioni ausiliarie di aggiornamento parametri richiamate precedentemente.
 \begin{csharp}
 ...
     case 100:
@@ -970,7 +970,7 @@ Illustriamo anche la gestione di extra produzione tramite popup, eseguita tramit
     break;
 ...
 \end{csharp}
-Se il processo produttivo è avvenuto correttamente, ci troveremo al \verb|case 148| in cui viene richiesto all'operatore di confermare la chiusura ordine. Le varie risposte sono gestite al \verb|case 149|, in cui vengono gestiti i comandi di reset popup, il \verb|DB91_TerminaProduzione| è il prossimo passo a cui passare. Nel caso in cui venga confermata la chiusura ordine, lo scopo del \verb|case 150| è di rimanere in attesa dell'handshake da parte del PLC, cioè la variabile \verb|DB92_AckTerminaProduzione|. Se tutto avviene in modo corretto, vengono resettate tutte le variabili di produzione (righe 10-14) e si passa al \verb|case 160| in cui viene fatto l'aggiornamento delle tabelle spostando la produzione appena conclusa in storico produzione. Il \verb|case 165| monitora il reset della variabile \verb|DB92_AckTerminaProduzione| di handshake e imposta il passo direttamente a quello finale. 
+Se il processo produttivo è avvenuto correttamente, ci troveremo al \verb|case 148| in cui viene richiesto all'operatore di confermare la chiusura ordine. Le varie risposte sono gestite al \verb|case 149|, in cui vengono gestiti i comandi di reset popup e il \verb|DB91_TerminaProduzione| è il prossimo passo a cui passare. Nel caso in cui venga confermata la chiusura ordine, lo scopo del \verb|case 150| è di rimanere in attesa dell'handshake da parte del PLC, cioè la variabile \verb|DB92_AckTerminaProduzione|. Se tutto avviene in modo corretto, vengono resettate tutte le variabili di produzione (righe 10-14) e si passa al \verb|case 160| in cui viene fatto l'aggiornamento delle tabelle spostando la produzione appena conclusa in storico produzione. Il \verb|case 165| monitora il reset della variabile \verb|DB92_AckTerminaProduzione| di handshake e imposta il passo direttamente a quello finale. 
 \begin{csharp}
 ...
     case 150:

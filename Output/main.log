@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  1 FEB 2025 17:39
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  2 FEB 2025 18:32
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/davidequartucci/Documents/GitHub/Tesi-Triennale-UNIPD/main
@@ -1148,14 +1148,14 @@ Package biblatex Info: Reference segment=0 on input line 54.
 
 
 warning  (file Immagini/logo_unipd.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.5', but at most version '1.4' allowed
-<Immagini/logo_unipd.pdf, id=130, 335.2525pt x 153.57375pt>
+<Immagini/logo_unipd.pdf, id=134, 335.2525pt x 153.57375pt>
 File: Immagini/logo_unipd.pdf Graphic file (type pdf)
 <use Immagini/logo_unipd.pdf>
 Package luatex.def Info: Immagini/logo_unipd.pdf  used on input line 7.
 (luatex.def)             Requested size: 182.09486pt x 83.41365pt.
 
 warning  (file Immagini/logo_dei.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.5', but at most version '1.4' allowed
-<Immagini/logo_dei.pdf, id=131, 98.3675pt x 63.23625pt>
+<Immagini/logo_dei.pdf, id=135, 98.3675pt x 63.23625pt>
 File: Immagini/logo_dei.pdf Graphic file (type pdf)
 <use Immagini/logo_dei.pdf>
 Package luatex.def Info: Immagini/logo_dei.pdf  used on input line 11.
@@ -1196,7 +1196,7 @@ Capitolo 1.
 [1
 
 ]
-<Immagini/LogoREA.png, id=268, 205.76875pt x 75.28125pt>
+<Immagini/LogoREA.png, id=273, 205.76875pt x 75.28125pt>
 File: Immagini/LogoREA.png Graphic file (type png)
 <use Immagini/LogoREA.png>
 Package luatex.def Info: Immagini/LogoREA.png  used on input line 17.
@@ -1206,25 +1206,25 @@ Package luatex.def Info: Immagini/LogoREA.png  used on input line 17.
 ]
 Capitolo 2.
 [5]
-<Immagini/SCADA_system.jpg, id=296, 727.71875pt x 355.3275pt>
+<Immagini/SCADA_system.jpg, id=301, 727.71875pt x 355.3275pt>
 File: Immagini/SCADA_system.jpg Graphic file (type jpg)
 <use Immagini/SCADA_system.jpg>
 Package luatex.def Info: Immagini/SCADA_system.jpg  used on input line 22.
 (luatex.def)             Requested size: 318.66948pt x 155.60178pt.
  [6]
-<Immagini/Operatore_SCADA.jpg, id=309, 730.76318pt x 494.54182pt>
+<Immagini/Operatore_SCADA.jpg, id=314, 730.76318pt x 494.54182pt>
 File: Immagini/Operatore_SCADA.jpg Graphic file (type jpg)
 <use Immagini/Operatore_SCADA.jpg>
 Package luatex.def Info: Immagini/Operatore_SCADA.jpg  used on input line 38.
 (luatex.def)             Requested size: 227.62206pt x 154.03835pt.
  [7<./Immagini/SCADA_system.jpg>]
-<Immagini/loghi.jpg, id=315, 759.43227pt x 537.54546pt>
+<Immagini/loghi.jpg, id=320, 759.43227pt x 537.54546pt>
 File: Immagini/loghi.jpg Graphic file (type jpg)
 <use Immagini/loghi.jpg>
 Package luatex.def Info: Immagini/loghi.jpg  used on input line 48.
 (luatex.def)             Requested size: 227.62206pt x 161.11723pt.
  [8<./Immagini/Operatore_SCADA.jpg><./Immagini/loghi.jpg>] [9]
-<Immagini/dashboard.png, id=329, 1937.2375pt x 1135.24126pt>
+<Immagini/dashboard.png, id=334, 1937.2375pt x 1135.24126pt>
 File: Immagini/dashboard.png Graphic file (type png)
 <use Immagini/dashboard.png>
 Package luatex.def Info: Immagini/dashboard.png  used on input line 82.
@@ -1244,13 +1244,13 @@ Underfull \hbox (badness 2512) in paragraph at lines 20--21
  []
 
 [12]
-<Immagini/HMI00.png, id=357, 2309.62875pt x 1227.58624pt>
+<Immagini/HMI00.png, id=362, 2309.62875pt x 1227.58624pt>
 File: Immagini/HMI00.png Graphic file (type png)
 <use Immagini/HMI00.png>
 Package luatex.def Info: Immagini/HMI00.png  used on input line 39.
 (luatex.def)             Requested size: 455.24411pt x 241.95392pt.
  [13<./Immagini/HMI00.png>]
-<Immagini/HMI01.png, id=363, 1393.205pt x 793.96625pt>
+<Immagini/HMI01.png, id=368, 1393.205pt x 793.96625pt>
 File: Immagini/HMI01.png Graphic file (type png)
 <use Immagini/HMI01.png>
 Package luatex.def Info: Immagini/HMI01.png  used on input line 52.
@@ -1259,7 +1259,7 @@ Package luatex.def Info: Immagini/HMI01.png  used on input line 52.
 Underfull \vbox (badness 5064) has occurred while \output is active []
 
  [14<./Immagini/HMI01.png>] [15]
-<Immagini/AnagraficaArticoli.png, id=375, 1679.27374pt x 882.29625pt>
+<Immagini/AnagraficaArticoli.png, id=380, 1679.27374pt x 882.29625pt>
 File: Immagini/AnagraficaArticoli.png Graphic file (type png)
 <use Immagini/AnagraficaArticoli.png>
 Package luatex.def Info: Immagini/AnagraficaArticoli.png  used on input line 72.
@@ -1277,7 +1277,7 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
  [19] (./_minted-main/CD0FA203AFEC9848EFD9A58B73070B8450EB15C0A2CA8D5A1F16281FC253576A.pygtex) [20]
-<Immagini/Produzione.png, id=419, 1509.64pt x 379.4175pt>
+<Immagini/Produzione.png, id=424, 1509.64pt x 379.4175pt>
 File: Immagini/Produzione.png Graphic file (type png)
 <use Immagini/Produzione.png>
 Package luatex.def Info: Immagini/Produzione.png  used on input line 216.
@@ -1285,7 +1285,7 @@ Package luatex.def Info: Immagini/Produzione.png  used on input line 216.
 
 \openout3 = main.pyg
  (./_minted-main/7DDBFB2C813D40897396A06E52C9A49650EB15C0A2CA8D5A1F16281FC253576A.pygtex) [21<./Immagini/Produzione.png>]
-<Immagini/ExtraProduzione.png, id=429, 1696.3375pt x 946.53625pt>
+<Immagini/ExtraProduzione.png, id=434, 1696.3375pt x 946.53625pt>
 File: Immagini/ExtraProduzione.png Graphic file (type png)
 <use Immagini/ExtraProduzione.png>
 Package luatex.def Info: Immagini/ExtraProduzione.png  used on input line 270.
@@ -1299,7 +1299,7 @@ Underfull \vbox (badness 1895) detected at line 325
  []
 
 [23<./Immagini/ExtraProduzione.png>]
-<Immagini/StoricoProduzione.png, id=443, 1922.18124pt x 1081.03876pt>
+<Immagini/StoricoProduzione.png, id=448, 1922.18124pt x 1081.03876pt>
 File: Immagini/StoricoProduzione.png Graphic file (type png)
 <use Immagini/StoricoProduzione.png>
 Package luatex.def Info: Immagini/StoricoProduzione.png  used on input line 332.
@@ -1307,17 +1307,17 @@ Package luatex.def Info: Immagini/StoricoProduzione.png  used on input line 332.
 
 \openout3 = main.pyg
  [24<./Immagini/StoricoProduzione.png>] (./_minted-main/610EDE15263CA8D74830BF4778B83CCE50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
-<Immagini/CartellaAllarmi.png, id=451, 341.275pt x 380.42125pt>
+<Immagini/CartellaAllarmi.png, id=456, 341.275pt x 380.42125pt>
 File: Immagini/CartellaAllarmi.png Graphic file (type png)
 <use Immagini/CartellaAllarmi.png>
 Package luatex.def Info: Immagini/CartellaAllarmi.png  used on input line 382.
 (luatex.def)             Requested size: 159.33821pt x 177.61963pt.
-<Immagini/AllarmiInfografica.png, id=452, 598.235pt x 368.37625pt>
+<Immagini/AllarmiInfografica.png, id=457, 598.235pt x 368.37625pt>
 File: Immagini/AllarmiInfografica.png Graphic file (type png)
 <use Immagini/AllarmiInfografica.png>
 Package luatex.def Info: Immagini/AllarmiInfografica.png  used on input line 390.
 (luatex.def)             Requested size: 250.38564pt x 154.18297pt.
-<Immagini/Allarmi.png, id=454, 1923.185pt x 1077.02374pt>
+<Immagini/Allarmi.png, id=459, 1923.185pt x 1077.02374pt>
 File: Immagini/Allarmi.png Graphic file (type png)
 <use Immagini/Allarmi.png>
 Package luatex.def Info: Immagini/Allarmi.png  used on input line 401.
@@ -1329,7 +1329,7 @@ Package luatex.def Info: Immagini/Allarmi.png  used on input line 401.
  (./_minted-main/E820F2526486C4BAF8E9E7F431016B6B50EB15C0A2CA8D5A1F16281FC253576A.pygtex)
 \openout3 = main.pyg
  [27<./Immagini/Allarmi.png>] (./_minted-main/B119CF04158C49A50630651A35ABD51750EB15C0A2CA8D5A1F16281FC253576A.pygtex) [28]
-<Immagini/tag.png, id=489, 380.42125pt x 840.13875pt>
+<Immagini/tag.png, id=494, 380.42125pt x 840.13875pt>
 File: Immagini/tag.png Graphic file (type png)
 <use Immagini/tag.png>
 Package luatex.def Info: Immagini/tag.png  used on input line 484.
@@ -1387,7 +1387,7 @@ Underfull \hbox (badness 1824) in paragraph at lines 1077--1079
 ]
 Capitolo 4.
 [43]
-<Immagini/ImportTag.png, id=572, 352.31625pt x 342.27875pt>
+<Immagini/ImportTag.png, id=577, 352.31625pt x 342.27875pt>
 File: Immagini/ImportTag.png Graphic file (type png)
 <use Immagini/ImportTag.png>
 Package luatex.def Info: Immagini/ImportTag.png  used on input line 15.
@@ -1400,13 +1400,13 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <10> not available
 (Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input line 22.
 )
-<Immagini/FTP.png, id=582, 1509.64pt x 426.59375pt>
+<Immagini/FTP.png, id=587, 1509.64pt x 426.59375pt>
 File: Immagini/FTP.png Graphic file (type png)
 <use Immagini/FTP.png>
 Package luatex.def Info: Immagini/FTP.png  used on input line 72.
 (luatex.def)             Requested size: 455.24411pt x 128.64305pt.
  [45] [46<./Immagini/FTP.png>]
-<Immagini/PannelloASEM.jpg, id=596, 1932.21875pt x 1604.99625pt>
+<Immagini/PannelloASEM.jpg, id=601, 1932.21875pt x 1604.99625pt>
 File: Immagini/PannelloASEM.jpg Graphic file (type jpg)
 <use Immagini/PannelloASEM.jpg>
 Package luatex.def Info: Immagini/PannelloASEM.jpg  used on input line 92.
@@ -1421,7 +1421,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [49]) [50] [51
 
 
-] [52] (./main.aux)
+] (./Capitoli/Ringraziamenti.tex [52]) [53
+
+] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1431,7 +1433,7 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A9B1A37373D5F3663D7053C1CC83E66;2868.
+(rerunfilecheck)             Checksum: 0A406FDE26B3B7CF2FD6BFEA7DD67F7A;2920.
 runsystem(rm main.pyg)...executed.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
@@ -1439,18 +1441,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34729 strings out of 476447
+ 34743 strings out of 476447
  125009,1977958 words of node,token memory allocated
  802 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 44 attribute, 68 glue_spec, 24 attribute_list, 1 write, 16 pdf_action nodes
-   avail lists: 1:8,2:8210,3:500,4:892,5:556,6:126,7:9018,8:214,9:1954,10:142,11:1301
- 55762 multiletter control sequences out of 65536+600000
+   avail lists: 1:8,2:8216,3:500,4:892,5:556,6:126,7:9006,8:214,9:1954,10:142,11:1301
+ 55768 multiletter control sequences out of 65536+600000
  78 fonts using 19417935 bytes
- 79i,11n,89p,2585b,3411s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,89p,2581b,3411s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (62 pages, 6527076 bytes).
+Output written on main.pdf (63 pages, 6529035 bytes).
 
-PDF statistics: 739 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 131072)
- 264 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 748 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 131072)
+ 272 words of extra memory for PDF output out of 10000 (max. 100000000)
 

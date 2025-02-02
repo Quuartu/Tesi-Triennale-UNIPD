@@ -31,3 +31,4 @@
 \contentsline {subsection}{\numberline {4.2.1}Gestione FTP Robot, FTP Pressa e passi 50, 55 e 60}{46}{subsection.4.2.1}%
 \contentsline {chapter}{\numberline {5}Conclusioni}{49}{chapter.5}%
 \contentsline {chapter}{Bibliografia e Sitografia}{51}{chapter*.22}%
+\contentsline {chapter}{Ringraziamenti}{53}{chapter*.23}%
