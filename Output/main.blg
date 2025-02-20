@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[38] biber-darwin:340> INFO - === Sun Feb  2, 2025, 18:31:54
-[48] Biber.pm:419> INFO - Reading 'main.bcf'
-[96] Biber.pm:979> INFO - Found 16 citekeys in bib section 0
-[104] Biber.pm:4419> INFO - Processing section 0
+[38] biber-darwin:340> INFO - === Thu Feb 20, 2025, 10:23:54
+[49] Biber.pm:419> INFO - Reading 'main.bcf'
+[94] Biber.pm:979> INFO - Found 16 citekeys in bib section 0
+[102] Biber.pm:4419> INFO - Processing section 0
 [109] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
-[111] bibtex.pm:1713> INFO - LaTeX decoding ...
+[110] bibtex.pm:1713> INFO - LaTeX decoding ...
 [115] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
-[158] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[158] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[158] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
-[158] Biber.pm:4245> INFO - No sort tailoring available for locale 'it-IT'
-[166] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[170] bbl.pm:763> INFO - Output to main.bbl
+[159] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[159] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[159] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
+[159] Biber.pm:4245> INFO - No sort tailoring available for locale 'it-IT'
+[167] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[171] bbl.pm:763> INFO - Output to main.bbl
