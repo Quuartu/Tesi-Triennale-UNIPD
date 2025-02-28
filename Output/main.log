@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  20 FEB 2025 10:24
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  28 FEB 2025 10:50
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/davidequartucci/Documents/GitHub/Tesi-Triennale-UNIPD/main
@@ -1450,7 +1450,7 @@ Here is how much of LuaTeX's memory you used:
  78 fonts using 19417935 bytes
  79i,11n,89p,2581b,3411s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (63 pages, 6529030 bytes).
+Output written on main.pdf (63 pages, 6529110 bytes).
 
 PDF statistics: 748 PDF objects out of 1000 (max. 8388607)
  171 named destinations out of 1000 (max. 131072)
